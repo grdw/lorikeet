@@ -1,0 +1,1 @@
+new WallopSlider(".wallop-slider");
