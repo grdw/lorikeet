@@ -92,7 +92,7 @@ a:active{
 }
 
 div.pg{
-  margin-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 a.btn {
@@ -138,7 +138,7 @@ footer{
   float: left;
 }
 
-a.btn{
+.slider-wrapper a.btn{
   position: absolute;
   bottom: 0;
 }
