@@ -139,7 +139,7 @@ footer{
 
 /* Wallop slider css */
 .wallop-slider {
-  height: 332px;
+  max-height: 332px;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -178,11 +178,11 @@ footer{
 }
 
 .wallop-slider a.btn.left{
-  left: 195px;
+  left: 0px;
 }
 
 .wallop-slider a.btn.right{
-  right: 195px;
+  right: 2px;
 }
 
 /*==========  SLIDE CONFIG  ==========*/
