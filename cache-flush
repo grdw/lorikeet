@@ -1,0 +1,8 @@
+cache-purge www.drunkenmarias.nl
+cache-purge www.drunkenmarias.nl/index.html
+cache-purge www.drunkenmarias.nl/style.css
+cache-purge www.drunkenmarias.nl/pers-drunken-marias.zip
+cache-purge drunkenmarias.nl
+cache-purge drunkenmarias.nl/index.html
+cache-purge drunkenmarias.nl/style.css
+cache-purge drunkenmarias.nl/pers-drunken-marias.zip
