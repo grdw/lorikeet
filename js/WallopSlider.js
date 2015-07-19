@@ -106,7 +106,9 @@ WallopSlider = (function() {
   WallopProto.bindEvents = function () {
     var _this = this;
     this.buttonPrevious.addEventListener('click', function () { _this.onPreviousButtonClicked(); });
+    this.buttonPrevious.addEventListener('touchstart', function () { _this.onPreviousButtonClicked(); });
     this.buttonNext.addEventListener('click', function () { _this.onNextButtonClicked(); });
+    this.buttonNext.addEventListener('touchstart', function () { _this.onNextButtonClicked(); });
   };
 
   // Method so it is nicer for the user to use custom events
