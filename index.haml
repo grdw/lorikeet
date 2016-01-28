@@ -1,0 +1,105 @@
+-# SETTINGS
+- pictures = %w(7 10 9 8 1 2 3 4 5 6)
+-# END SETTINGS
+
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, user-scalable=no", :name => "viewport"}/
+    %link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %title Drunken Maria's
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
+    %script{:language => "javascript", :src => "js/jquery-2.1.4.min.js"}
+    %script{:language => "javascript", :src => "js/jquery.event.swipe.js"}
+    %script{:language => "javascript", :src => "js/unslider.min.js"}
+    %script{:language => "javascript", :src => "js/dm.js"}
+  %body
+    #fb-root
+    :javascript
+      (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3&appId=244668138949903";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+
+    .center
+      .pg.intro
+        %img.logo{:src => "logo.png"}/
+        .fb-like{"data-action" => "like", "data-href" => "https://www.facebook.com/drunkenmarias", "data-layout" => "button_count", "data-share" => "true", "data-show-faces" => "true"}
+        %p.intro
+          Drunken Maria's zijn 2 DJ's die vanwege een tijdreisongeluk zijn
+          teruggekomen naar het heden. Gelukkig hadden Jesse en Gerard nog de
+          mogelijkheid om hun geliefde platenkoffers mee te mogen nemen. Gewapend
+          met een bult 60s en 70s soul, funk, surf, beat, pop, rock met exotische
+          en psychedelische tintjes schudden Jesse en Gerard de heupjes los.
+        %a.btn.big{:href => "mailto:booking@drunkenmarias.nl"} BOUW EEN FEESTJE!
+      .pg.photos
+        .slider-wrapper
+          .slider
+            %ul
+              - pictures.each do |picture|
+                %li
+                  %img{:src => "fotos/#{ picture }.jpg"}/
+
+          %a.btn.prev.left.small{:href => "#!"} <
+          %a.btn.next.right.small{:href => "#!"} >
+      .pg.gigs
+        %h2 Komt dat zien
+        %p
+          /
+            \//
+            <i>Momenteel hebben wij even niks op de agenda. Daar komt gauw verandering in.</i>
+            \//
+        %ul
+          %li
+            %strong 2016
+            %ul
+        %h2 Kwam dat zien
+        %ul
+          %li
+            %strong 2015
+            %ul
+              %li
+                %span 27/11
+                Hal25, Alkmaar
+              %li
+                %span 24/10
+                Alkmaars Koffiehuis, Alkmaar
+              %li
+                %span 30/08
+                Amsterdam Roest, Amsterdam
+              %li
+                %span 10/07
+                Alkmaars Koffiehuis, Alkmaar
+              %li
+                %span 05/06
+                Forever Young 2015, Grootebroek
+              %li
+                %span 22/05,23/05
+                Karavaan festival, Alkmaar
+              %li
+                %span 16/05
+                Karavaan festival, Hoorn
+          %li
+            %strong 2014
+            %ul
+              %li
+                %span 22/11
+                *Amsterdam Roest, Amsterdam
+              %li
+                %span 08/11
+                Scenecs Filmfestival, Amersfoort
+        %em.note * Evenement als Kofferbaque (Gerard)
+      .pg.mixcloud
+        %h2 Mixcloud
+        %iframe{:frameborder => "0", :height => "180", :src => "https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&embed_uuid=74ad446e-d33c-44ad-a71b-96b78dcb0767&feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Fde-sfeerimpressie%2F&hide_artwork=1&hide_tracklist=1&replace=0", :width => "100%"}
+      %footer
+        = "©#{ Time.now.year } - Drunken Marias"
+        %div
+          %span
+            %a{:href => "https://facebook.com/drunkenmarias", :target => "_blank"} Facebook
+          %span
+            %a{:href => "https://www.mixcloud.com/drunkenmarias/", :target => "_blank"} Mixcloud
