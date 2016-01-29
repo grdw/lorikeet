@@ -1,4 +1,6 @@
 -# SETTINGS
+- require 'yaml'
+- events   = YAML.load(File.read("events.yaml"))
 - pictures = %w(7 10 9 8 1 2 3 4 5 6)
 -# END SETTINGS
 
@@ -47,51 +49,17 @@
           %a.btn.prev.left.small{:href => "#!"} <
           %a.btn.next.right.small{:href => "#!"} >
       .pg.gigs
-        %h2 Komt dat zien
-        %p
-          /
-            \//
-            <i>Momenteel hebben wij even niks op de agenda. Daar komt gauw verandering in.</i>
-            \//
-        %ul
-          %li
-            %strong 2016
-            %ul
-        %h2 Kwam dat zien
-        %ul
-          %li
-            %strong 2015
-            %ul
-              %li
-                %span 27/11
-                Hal25, Alkmaar
-              %li
-                %span 24/10
-                Alkmaars Koffiehuis, Alkmaar
-              %li
-                %span 30/08
-                Amsterdam Roest, Amsterdam
-              %li
-                %span 10/07
-                Alkmaars Koffiehuis, Alkmaar
-              %li
-                %span 05/06
-                Forever Young 2015, Grootebroek
-              %li
-                %span 22/05,23/05
-                Karavaan festival, Alkmaar
-              %li
-                %span 16/05
-                Karavaan festival, Hoorn
-          %li
-            %strong 2014
-            %ul
-              %li
-                %span 22/11
-                *Amsterdam Roest, Amsterdam
-              %li
-                %span 08/11
-                Scenecs Filmfestival, Amersfoort
+        - events.each do |year, year_events|
+          %ul
+            %li
+              %strong= year
+              %ul
+                - year_events.each do |event|
+                  - event_date = Date.new(year, *event["date"].split("/").map(&:to_i).reverse)
+                  %li{class: ("old" if event_date < DateTime.now) }
+                    %span= event["date"]
+                    = event["event"]
+
         %em.note * Evenement als Kofferbaque (Gerard)
       .pg.mixcloud
         %h2 Mixcloud

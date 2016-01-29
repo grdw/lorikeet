@@ -37,6 +37,8 @@ ul {
   margin-bottom: 20px; }
   .gigs > ul > li > ul > li {
     line-height: 27px; }
+    .gigs > ul > li > ul > li.old {
+      opacity: 0.5; }
   .gigs > ul > li > strong {
     border-bottom: 1px solid #1fc37c;
     margin-bottom: 5px;
