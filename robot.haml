@@ -1,0 +1,72 @@
+-# SETTINGS
+- require 'yaml'
+- robots = YAML.load(File.read("robots.yaml"))
+
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, user-scalable=no", :name => "viewport"}/
+    %link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %title Rent a robot! - Drunken Marias
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
+  %body.sub-page
+    #fb-root
+    :javascript
+      (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3&appId=244668138949903";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+
+    .center
+      .pg.intro
+        %p.small-logo
+          %a{ href: '/'}
+            %img.logo.small{:src => "logo.png"}/
+
+        %p.intro
+          Wij presenteren met trots: stand-in Drunken Marias! Vintage robots
+          die de&nbsp;
+          %a{ href: 'https://mixcloud.com/drunkenmarias', target: '_blank' }> Drunken Marias podcasts
+          &nbsp;met zich meedragen en deze op het lokale wifi netwerk
+          streamen. De bedoeling is dat deze stand-in Drunken Marias allemaal
+          een tijdelijk overdekt plekje krijgen en naast een stukje decoratie,
+          een stukje interactiviteit verzorgen met de directe omgeving.
+
+        %p
+          Gun jij een stand-in Drunken Maria onderdak om zo vrolijk muziek
+          te kunnen streamen in jouw kroeg, winkel, hippe koffietent of event?
+
+        %a.btn.big{:href => "mailto:rent-a-robot@drunkenmarias.nl"} HUUR EEN STAND-IN DRUNKEN MARIA!
+
+      .pg.robots
+        %h2 De stand-ins:
+        - robots.each do |robot|
+          .robot
+            %h3= robot['name']
+
+            .photo
+              %img{src: "fotos/robots/#{ robot['image'] }" }
+              %span.status
+                = robot['rented'] ? 'VERHUURD' : 'BESCHIKBAAR'
+
+            %p.info= robot['description']
+
+            - if robot['rented']
+              .description
+                %span Spot hem bij:
+                %span= robot['rented_at']['title']
+                %p= robot['rented_at']['description']
+            - else
+              %a.btn.big{:href => "mailto:rent-a-robot@drunkenmarias.nl?subject=#{ robot['more_info'] }"} MEER INFO
+
+      %footer
+        = "©#{ Time.now.year } - Drunken Marias"
+        %div
+          %span
+            %a{:href => "https://facebook.com/drunkenmarias", :target => "_blank"} Facebook
+          %span
+            %a{:href => "https://www.mixcloud.com/drunkenmarias/", :target => "_blank"} Mixcloud
