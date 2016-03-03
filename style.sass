@@ -159,10 +159,27 @@ span.or
   margin: 10px 0
 
 @media only screen and (max-width: 480px)
+  body
+    margin: 0 5px
   body .center
     width: 100%
-    margin: 10px 2px
+    margin: auto
+  h1
+    font-size: 120%
+  h2, a.btn.big
+    font-size: 110%
+  h3
+    font-size: 105%
+  .photo img
+    width: calc(100% - 10px)
+    width: -moz-calc(100% - 10px)
+    width: -webkit-calc(100% - 10px)
+
   img
+    width: 100%
+    &.logo
+      display: block
+      margin: 0 auto
     width: 100%
   a.btn
     &.prev
