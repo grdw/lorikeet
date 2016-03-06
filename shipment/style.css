@@ -170,7 +170,8 @@ span.or {
     width: 100%; }
     img.logo {
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 200px; }
 
   a.btn.prev {
     left: 0; }
