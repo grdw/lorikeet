@@ -1,0 +1,13 @@
+- name: 'Space-Age Exotic Red Robot'
+  image: '1.2.500x.jpg'
+  rented: false
+  description: >
+    Deze exotische rode robot bevat de meest groovy 50s geluiden uit de
+    platenkast van de Drunken Marias!
+    Nadat wij deze robot hebben aangesloten is het op uw locatie direct een feestje!
+
+  more_info: "Ik heb een vraag over het huren van een stand-in Drunken Maria"
+
+  rented_at:
+    title: ''
+    description: ''

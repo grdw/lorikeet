@@ -1,0 +1,61 @@
+-# SETTINGS
+- require 'yaml'
+- robots = YAML.load(File.read("data/robots.yaml"))
+
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, user-scalable=no", :name => "viewport"}/
+    %link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %title Rent a robot! - Drunken Marias
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
+  %body.sub-page
+    .center
+      .pg.intro
+        %p.small-logo
+          %a{ href: '/'}
+            %img.logo.small{:src => "logo.png"}/
+
+        %h2 Adopteer een robot
+        %p.intro
+          Deuntjes zijn fijn, maar deuntjes uit een klassieke vintage 50s robot zijn natuurlijk ultiem.
+          Daarom presenteren wij met trots onze robotversie alias stand-in Drunken Marias! Wij zorgen voor onze
+          fijne muziekselectie met onze&nbsp;
+          %a{ href:'https://mixcloud.com/drunkenmarias', target: '_blank'}> unieke podcast
+          die je eenvoudig over het wifinetwerk streamt en jij zorgt voor lieve verzorgers die de robot omhelzen.
+
+        %p
+          Kan jouw kroeg, feestje of koffietent wel een beetje retro funk gebruiken? En wil jij een robot onderdak geven?
+          Neem dan direct contact op!
+
+        %a.btn.big{:href => "mailto:rent-a-robot@drunkenmarias.nl"} HUUR EEN STAND-IN!
+
+      .pg.robots
+        %h2 De stand-ins:
+        - robots.each do |robot|
+          .robot
+            %h3= robot['name']
+
+            .photo
+              %img{src: "fotos/robots/#{ robot['image'] }" }
+              %span.status
+                = robot['rented'] ? 'VERHUURD' : 'BESCHIKBAAR'
+
+            %p.info= robot['description']
+
+            - if robot['rented']
+              .description
+                %span Spot hem bij:
+                %span= robot['rented_at']['title']
+                %p= robot['rented_at']['description']
+            - else
+              %a.btn.big{:href => "mailto:rent-a-robot@drunkenmarias.nl?subject=#{ robot['more_info'] }"} MEER INFO
+
+      %footer
+        = "©#{ Time.now.year } - Drunken Marias"
+        %div
+          %span
+            %a{:href => "https://facebook.com/drunkenmarias", :target => "_blank"} Facebook
+          %span
+            %a{:href => "https://www.mixcloud.com/drunkenmarias/", :target => "_blank"} Mixcloud
