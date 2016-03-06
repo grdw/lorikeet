@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+require 'fileutils'
+require 'haml'
+require 'sass'
+
+robots = YAML.load(File.read("data/robots.yaml"))
+robots.each_with_index do |robot, index|
+  folder = "robots/#{ index }"
+  FileUtils.mkdir_p(folder)
+end
