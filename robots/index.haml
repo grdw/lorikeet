@@ -1,7 +1,6 @@
 -# SETTINGS
 - require 'yaml'
 - require 'uri'
-- mixcloud_url = URI.encode("https://www.mixcloud.com/drunkenmarias/podcast-5-discotronics-mumbo-jumo/")
 -# END SETTINGS
 
 !!!
@@ -24,7 +23,7 @@
 
       .pg.mixcloud
         %h2 Luister naar mij
-        %iframe{:frameborder => "0", :height => "180", :src => "https://www.mixcloud.com/widget/iframe/?feed=#{ mixcloud_url }", :width => "100%"}
+        %iframe{:frameborder => "0", :height => "180", :src => "", :width => "100%"}
 
       %footer
         = "©#{ Time.now.year } - Drunken Marias"
