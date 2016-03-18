@@ -140,7 +140,6 @@
             </ul>
           </li>
         </ul>
-        <em class='note'>* Evenement als Kofferbaque (Gerard)</em>
       </div>
       <div class='pg mixcloud'>
         <h2>Mixcloud</h2>

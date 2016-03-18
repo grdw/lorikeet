@@ -19,7 +19,7 @@
         <p class='intro'>
           Deuntjes zijn fijn, maar deuntjes uit een klassieke vintage 50s robot zijn natuurlijk ultiem.
           Daarom presenteren wij met trots onze robotversie alias stand-in Drunken Marias! Wij zorgen voor onze
-          fijne muziekselectie met onze&nbsp;<a href='https://mixcloud.com/drunkenmarias' target='_blank'>unieke podcast</a>die je eenvoudig over het wifinetwerk streamt en jij zorgt voor lieve verzorgers die de robot omhelzen.
+          fijne muziekselectie met onze&nbsp;<a href='https://mixcloud.com/drunkenmarias' target='_blank'>unieke podcast</a>&nbsp;die je eenvoudig over het wifinetwerk streamt en jij zorgt voor lieve verzorgers die de robot omhelzen.
         </p>
         <p>
           Kan jouw kroeg, feestje of koffietent wel een beetje retro funk gebruiken? En wil jij een robot onderdak geven?
