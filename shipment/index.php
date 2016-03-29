@@ -76,16 +76,16 @@
             <strong>2016</strong>
             <ul>
               <li>
-                <span>19/03</span>
-                Cayen, Enkhuizen
+                <span>27/04</span>
+                Cafe Odeon, Alkmaar
               </li>
-              <li>
+              <li class='old'>
                 <span>28/03</span>
                 Kokende Karren, Hal25, Alkmaar
               </li>
-              <li>
-                <span>27/04</span>
-                Cafe Odeon, Alkmaar
+              <li class='old'>
+                <span>19/03</span>
+                Cayen, Enkhuizen
               </li>
             </ul>
           </li>
