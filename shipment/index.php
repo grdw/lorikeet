@@ -27,7 +27,7 @@
         <div class='buttons'>
           <a class='btn big' href='mailto:booking@drunkenmarias.nl'>BOUW EEN FEESTJE!</a>
           <span class='or'>OF</span>
-          <a class='btn big' href='robot.html'>HUUR EEN ROBOT!</a>
+          <a class='btn big' href='robot'>HUUR EEN ROBOT!</a>
         </div>
       </div>
       <div class='pg photos'>
