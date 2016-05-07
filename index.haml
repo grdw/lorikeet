@@ -2,7 +2,7 @@
 - require 'yaml'
 - events   = YAML.load(File.read("data/events.yaml"))
 - pictures = %w(7 10 9 8 1 2 3 4 5 6)
-- mixcloud_url = "https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Fpodcast-4-soul-funk-madness%2F"
+- mixcloud_url = "go-to-bollywood-ii"
 -# END SETTINGS
 
 !!!
@@ -57,7 +57,7 @@
 
       .pg.mixcloud
         %h2 Mixcloud
-        %iframe{:frameborder => "0", :height => "180", :src => mixcloud_url, :width => "100%"}
+        %iframe{:frameborder => "0", :height => "180", :src => "https://www.mixcloud.com/widget/iframe/?feed=https://www.mixcloud.com/drunkenmarias/#{ mixcloud_url }", :width => "100%"}
       %footer
         = "©#{ Time.now.year } - Drunken Marias"
         %div
