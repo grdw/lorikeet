@@ -76,6 +76,10 @@
             <strong>2016</strong>
             <ul>
               <li>
+                <span>15/05</span>
+                Cafe Odeon, Alkmaar
+              </li>
+              <li class='old'>
                 <span>27/04</span>
                 Cafe Odeon, Alkmaar
               </li>
