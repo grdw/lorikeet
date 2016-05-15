@@ -76,12 +76,12 @@
             <strong>2016</strong>
             <ul>
               <li>
+                <span>03/06</span>
+                ?, Alkmaar
+              </li>
+              <li class='old'>
                 <span>15/05</span>
                 Cafe Odeon, Alkmaar
-              </li>
-              <li>
-                <span>13/05</span>
-                Hal2500 Dagen - Hal25, Alkmaar
               </li>
               <li class='old'>
                 <span>27/04</span>
@@ -151,7 +151,7 @@
       </div>
       <div class='pg mixcloud'>
         <h2>Mixcloud</h2>
-        <iframe frameborder='0' height='180' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Fpodcast-4-soul-funk-madness%2F' width='100%'></iframe>
+        <iframe frameborder='0' height='180' src='https://www.mixcloud.com/widget/iframe/?feed=https://www.mixcloud.com/drunkenmarias/go-to-bollywood-ii' width='100%'></iframe>
       </div>
       <footer>
         ©2016 - Drunken Marias
