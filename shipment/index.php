@@ -84,6 +84,10 @@
                 Cafe Odeon, Alkmaar
               </li>
               <li class='old'>
+                <span>13/05</span>
+                Hal 2500 dagen, Hal25, Alkmaar
+              </li>
+              <li class='old'>
                 <span>27/04</span>
                 Cafe Odeon, Alkmaar
               </li>
@@ -151,7 +155,7 @@
       </div>
       <div class='pg mixcloud'>
         <h2>Mixcloud</h2>
-        <iframe frameborder='0' height='180' src='https://www.mixcloud.com/widget/iframe/?feed=https://www.mixcloud.com/drunkenmarias/go-to-bollywood-ii' width='100%'></iframe>
+        <iframe frameborder='0' height='180' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Fgo-to-bollywood-ii%2F' width='100%'></iframe>
       </div>
       <footer>
         ©2016 - Drunken Marias
