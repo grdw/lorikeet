@@ -77,7 +77,7 @@
             <ul>
               <li>
                 <span>03/06</span>
-                ?, Alkmaar
+                Shuffle Live!, Alkmaar
               </li>
               <li class='old'>
                 <span>15/05</span>
