@@ -76,6 +76,22 @@
             <strong>2016</strong>
             <ul>
               <li>
+                <span>15/10</span>
+                Cayen, Enkhuizen (with Indian Askin)
+              </li>
+              <li>
+                <span>27/08</span>
+                Midgetgolf Madness, Meppel
+              </li>
+              <li class='old'>
+                <span>01/07</span>
+                Halborrel, Hal25, Alkmaar
+              </li>
+              <li class='old'>
+                <span>24/06</span>
+                Hard Bitten And The Others, Almere
+              </li>
+              <li class='old'>
                 <span>03/06</span>
                 Shuffle Live!, Alkmaar
               </li>
@@ -155,7 +171,7 @@
       </div>
       <div class='pg mixcloud'>
         <h2>Mixcloud</h2>
-        <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Fgo-to-bollywood-ii%2F' width='100%'></iframe>
+        <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Ffrea%C3%A4ky-funky%2F' width='100%'></iframe>
       </div>
       <footer>
         ©2016 - Drunken Marias
