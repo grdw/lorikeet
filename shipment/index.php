@@ -80,14 +80,14 @@
                 Cayen, Enkhuizen (with Indian Askin)
               </li>
               <li>
-                <span>09/09</span>
-                ?
+                <span>10/09</span>
+                Victorie <3 Residents, Podium Victorie, Alkmaar
               </li>
-              <li>
+              <li class='old'>
                 <span>27/08</span>
                 Midgetgolf Madness, Meppel
               </li>
-              <li>
+              <li class='old'>
                 <span>19/08</span>
                 Halborrel, Hal 25, Alkmaar
               </li>
