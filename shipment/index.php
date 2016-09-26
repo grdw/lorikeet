@@ -79,7 +79,7 @@
                 <span>15/10</span>
                 Cayen, Enkhuizen (with Indian Askin)
               </li>
-              <li>
+              <li class='old'>
                 <span>10/09</span>
                 Victorie <3 Residents, Podium Victorie, Alkmaar
               </li>
