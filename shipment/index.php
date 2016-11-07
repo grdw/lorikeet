@@ -26,8 +26,6 @@
         </p>
         <div class='buttons'>
           <a class='btn big' href='mailto:booking@drunkenmarias.nl'>BOUW EEN FEESTJE!</a>
-          <span class='or'>OF</span>
-          <a class='btn big' href='robot'>HUUR EEN ROBOT!</a>
         </div>
       </div>
       <div class='pg photos'>
@@ -187,7 +185,7 @@
       </div>
       <div class='pg mixcloud'>
         <h2>Mixcloud</h2>
-        <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Ffrea%C3%A4ky-funky%2F' width='100%'></iframe>
+        <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdrunkenmarias%2Fexotic-jazzytronics%2F' width='100%'></iframe>
       </div>
       <footer>
         ©2016 - Drunken Marias

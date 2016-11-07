@@ -2,7 +2,6 @@
 echo "Compiling ... "
 sass style.sass > shipment/style.css
 haml index.haml > shipment/index.php
-haml robot.haml > shipment/robot.php
 echo "Compiled!"
 
 if [ "$1" == "deploy" ];
