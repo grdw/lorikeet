@@ -74,6 +74,10 @@
             <strong>2016</strong>
             <ul>
               <li>
+                <span>16/12</span>
+                Odeon, Alkmaar (African music only)
+              </li>
+              <li>
                 <span>26/11</span>
                 Cayen, Enkhuizen (with Canshaker Pi)
               </li>
