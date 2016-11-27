@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Compiling ... "
 sass style.sass > shipment/style.css
-haml index.haml > shipment/index.php
+haml index.haml > shipment/index.html
 echo "Compiled!"
 
 if [ "$1" == "deploy" ];
