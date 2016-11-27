@@ -73,11 +73,11 @@
           <li>
             <strong>2016</strong>
             <ul>
-              <li>
+              <li class='old'>
                 <span>26/11</span>
                 Cayen, Enkhuizen (with Canshaker Pi)
               </li>
-              <li>
+              <li class='old'>
                 <span>25/11</span>
                 Hal25, Alkmaar (with Feedback/Undercover Elephant/Surf Aid-Kit)
               </li>
