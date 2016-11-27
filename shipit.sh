@@ -7,7 +7,7 @@ echo "Compiled!"
 if [ "$1" == "deploy" ];
 then
 	echo ".. and deploying ... "
-	scp -r shipment/* drunkenmarias.nl@ssh.drunkenmarias.nl:/www/
+	rsync -av --delete shipment/ drunkenmarias.nl@ssh.drunkenmarias.nl:/www/
 	ssh drunkenmarias.nl@ssh.drunkenmarias.nl bash cache-flush
 	echo "Deployed! :D"
 fi
