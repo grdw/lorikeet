@@ -1,2 +1,5 @@
 pers-drunken-marias.zip
 .sass-cache
+.jekyll-metadata
+_site/
+_drafts/
