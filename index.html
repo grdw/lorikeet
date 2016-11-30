@@ -27,7 +27,7 @@ title: Lorikeet
 						{% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
 
 						<li class="{% if posttime < nowunix %}old{% endif %}">
-              <span>{{ event['date'] | date: '%m/%d' }}</span>
+              <span>{{ event['date'] | date: '%d/%m' }}</span>
               {{ event['event'] }}
             </li>
           {% endfor %}
