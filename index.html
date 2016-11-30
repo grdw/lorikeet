@@ -7,7 +7,7 @@ title: Lorikeet
   <p class='intro'>
   </p>
   <div class='buttons'>
-    <a class='btn big' href='mailto:booking@lorikeet.nl'>Book</a>
+    <a class='btn big' href='mailto:grdw@protonmail.com'>Book</a>
   </div>
 </div>
 
@@ -18,8 +18,11 @@ title: Lorikeet
         <strong> {{ event_hash[0] }}</strong>
         <ul>
           {% for event in event_hash[1] %}
-            <li>
-              <span>{{ event['date'] }}</span>
+						{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+						{% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
+
+						<li class="{% if posttime < nowunix %}old{% endif %}">
+              <span>{{ event['date'] | date: '%m/%d' }}</span>
               {{ event['event'] }}
             </li>
           {% endfor %}
