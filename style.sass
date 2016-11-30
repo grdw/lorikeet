@@ -3,23 +3,29 @@
 #
 ---
 
-$purple:  #cdc790
-$green:   #1fc37c
-$darkred: #9b0749
+$purple:  #e3e0c6
+$green:   #cdc790
+$darkred: #e1186a
 
 body
-  background-color: $purple
+  background-image: url('bg.jpg')
   font-family: Monospace
   font-size: 1.3em
-  color: white
+  color: black
 
   .center
-    width: 500px
+    width: 540px
     margin: 0px auto
+    padding: 20px
     p.intro
       text-align: justify
   footer
     text-align: center
+
+.bird-side
+  position: absolute
+  top: 0
+  right: -163px
 
 h2
   border-bottom: 4px solid $green
@@ -83,14 +89,23 @@ a
   text-decoration: none
   border-bottom: 2px dotted $green
   font-weight: bold
-  color: white
+  color: black
   display: inline-block
   &:visited, &:active
-    color: white
+    color: black
 
 div.pg
-  padding-bottom: 15px
+  position: relative
+  padding: 15px 20px
   border-bottom: 5px $green dotted
+  background-color: $purple
+
+  &.logo
+    background-color: transparent
+
+  &.mixcloud
+    padding: 0
+    background-color: transparent
 
 a.btn
   background-color: $green
@@ -110,7 +125,7 @@ a.btn
 footer
   margin: 25px 0 15px 0
   span a
-    background-color: $purple
+    background-color: $green
     padding: 2px 4px 0px 4px
     font-weight: bold
     margin: 10px 0
@@ -140,22 +155,6 @@ a.btn
     left: -4px
   &.next
     right: -2px
-
-.robot
-  .photo
-    position: relative
-
-    img
-      border: 5px dotted $green
-
-    span.status
-      position: absolute
-      bottom: 19px
-      right: 5px
-      font-weight: bold
-      font-size: 20px
-      background-color: $darkred
-      padding: 5px 15px
 
 span.or
   font-size: 120%
