@@ -5,14 +5,21 @@
     <meta content='width=device-width, user-scalable=no' name='viewport'>
     <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
     <title>Lorikeet | {{ page.title }}</title>
-    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link href='/style.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class='center'>
       <div class='pg logo'>
         <p>
-					<img class='logo' alt="lorikeet" src="logo.png"/>
+					<img class='logo' alt="lorikeet" src="/img/logo.png"/>
         </p>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="posts">Posts</a></li>
+          <li><a href="tapes">Tapes</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
       </div>
 			{{ content }}
       <footer>©2016 - Lorikeet</footer>
