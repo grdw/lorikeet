@@ -11,7 +11,7 @@ layout: default
 		in an oase of sound.
 	</p>
 	<div class='buttons'>
-    <a class='btn big' href='mailto:grdw@protonmail.com'>Book</a>
+    <a class='btn big' href='mailto:bird@lorikeet.nl'>Book</a>
   </div>
 </div>
 
@@ -37,5 +37,8 @@ layout: default
 </div>
 
 <div class='pg mixcloud'>
-  <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Florikeet%2Fexotic-jazzytronics%2F' width='100%'></iframe>
+  {% if site.live %}
+  {% else %}
+    <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed={{ site.mixcloud_url }}' width='100%'></iframe>
+  {% endif %}
 </div>

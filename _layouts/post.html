@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<div id="post">
-{{ content }}
-</div>
 
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="pg post">
+  <h1>
+    {{ page.title }}
+
+    ({% if page.original_year %}{{ page.original_year }} - {% endif %}{{ page.year }})
+  </h1>
+
+  <img class='cover' src="{{ page.cover }}"/>
+
+  {{ content }}
+
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 </div>

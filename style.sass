@@ -29,6 +29,12 @@ body
         &:first-child
           margin-left: 12px
 
+        &.disabled
+          background-color: #999
+
+          a
+            cursor: default
+
   .center
     width: 540px
     margin: 0px auto
@@ -124,6 +130,20 @@ div.pg
   &.mixcloud
     padding: 0
     background-color: transparent
+
+  &.post
+    img.cover
+      width: 500px
+
+    p
+      text-align: justify
+
+    ul.tags
+      li
+        display: inline-block
+        background-color: $darkred
+        padding: 2px 5px
+        color: white
 
 a.btn
   background-color: $green
