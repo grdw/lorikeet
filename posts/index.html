@@ -1,0 +1,10 @@
+---
+layout: default
+title: 'Posts'
+---
+
+{% for post in site.posts %}
+  <div class='pg'>
+    <p>{{ post.title }}</p>
+  </div>
+{% endfor %}
