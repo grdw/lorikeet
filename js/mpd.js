@@ -28,8 +28,11 @@ var MPD = (function () {
     }
 
     function MPD(el) {
-        this.el    = el;
-        this.audio = createAudioElement(el);
+        this.el = el;
+
+        if (this.el) {
+            this.audio = createAudioElement(el);
+        }
     }
 
     return MPD;
@@ -39,11 +42,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     'use strict';
 
     window.mpdNode = new MPD(document.querySelector("#mpd"));
-    window.mpdNode.initialize();
+
+    if (window.mpdNode.el) {
+        window.mpdNode.initialize();
+    }
 });
 
 window.addEventListener('unload', function(event) {
-    window.mpdNode.destroy();
+    if (window.mpdNode.el) {
+        window.mpdNode.destroy();
+    }
 
     delete window.mpdNode;
 });
