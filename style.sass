@@ -4,9 +4,9 @@
 ---
 
 $purple:       #f3e0c6
-$green:        #cdc790
-$orange:       #e24318
-$light-orange: #cb6f62
+$green:        #db5786
+$orange:       #bfc967
+$light-orange: #ce8caa
 
 body
   background-image: url('img/bg.jpg')
@@ -22,7 +22,6 @@ body
       position: relative
 
       > li
-        padding: 5px 10px
         background-color: $orange
         list-style-type: none
         display: inline-block
@@ -33,8 +32,11 @@ body
         &.disabled
           background-color: #999
 
-          a
-            cursor: default
+        a
+          padding: 5px 10px
+
+          &:hover
+            background-color: $light-orange
 
   .center
     width: 540px
@@ -124,6 +126,10 @@ div.pg
 
   &.logo
     background-color: transparent
+    border-bottom: none
+
+    a
+      border: none
 
     p
       text-align: center
@@ -131,6 +137,13 @@ div.pg
   &.mixcloud
     padding: 0
     background-color: transparent
+
+  &.live
+    background-color: $green
+    text-align: center
+
+    #mpd
+      margin-top: 5px
 
   &.post
     img.cover

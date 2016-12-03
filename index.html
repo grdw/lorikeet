@@ -36,9 +36,13 @@ layout: default
   </ul>
 </div>
 
-<div class='pg mixcloud'>
-  {% if site.live %}
-  {% else %}
+{% if site.live %}
+	<div class="pg live">
+		<strong class="live">Currently live!</strong>
+		<div id="mpd" data-src="{{ site.live_url }}"></div>
+	</div>
+{% else %}
+	<div class='pg mixcloud'>
     <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed={{ site.mixcloud_url }}' width='100%'></iframe>
-  {% endif %}
-</div>
+	</div>
+{% endif %}
