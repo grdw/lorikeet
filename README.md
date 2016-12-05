@@ -1,5 +1,5 @@
 Lorikeet
 ========
 
-Website for hobby purposes https://lorikeet.nl
+Website for hobby purposes http://lorikeet.nl
 
