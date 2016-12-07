@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Caretaker - Everywhere At The End Of Time (2016)
+title: The Caretaker - Everywhere At The End Of Time
 year: 2016
 cover: "https://f4.bcbits.com/img/a3529689632_10.jpg"
 tags:
