@@ -11,7 +11,9 @@ title: 'Posts'
   <div class='pg post'>
     <h2>
       {{ post.title }}
-      ({% if post.original_year %}{{ post.original_year }} - {% endif %}{{ post.year }})
+      {% if post.year %}
+        ({% if post.original_year %}{{ post.original_year }} - {% endif %}{{ post.year }})
+      {% endif %}
     </h2>
     <p>
       <a href="{{ post.url }}">
