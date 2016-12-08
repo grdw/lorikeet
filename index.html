@@ -2,20 +2,15 @@
 layout: default
 ---
 
-<div class='pg intro'>
-	<div class='bird-side'>
-		<img src='img/bird-side.png'/>
-	</div>
-	<p>
-		Lorikeet is a tropical rare bird that tries to find it's resting place
-		in an oase of sound.
-	</p>
-	<div class='buttons'>
-    <a class='btn big' href='mailto:bird@lorikeet.nl'>Book</a>
-  </div>
+<div class='pg'>
+  <h1>Events</h1>
 </div>
 
 <div class='pg gigs'>
+	<div class='bird-side'>
+		<img src='img/bird-side.png'/>
+	</div>
+
   <ul>
     {% for event_hash in site.data.events %}
       <li>
@@ -34,6 +29,11 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <div class='buttons'>
+    <a class='btn big' href='mailto:bird@lorikeet.nl'>Book</a>
+  </div>
+
 </div>
 
 {% if site.live %}
