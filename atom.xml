@@ -4,8 +4,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Lorikeet</title>
- <link href="https://lorikeet.nl/atom.xml" rel="self"/>
- <link href="https://lorikeet.nl/"/>
+ <link href="http://lorikeet.nl/atom.xml" rel="self"/>
+ <link href="http://lorikeet.nl/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>https://lorikeet.nl/</id>
  <author>
@@ -16,7 +16,7 @@
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://lorikeet.nl.com{{ post.url }}"/>
+   <link href="http://lorikeet.nl.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>https://lorikeet.nl{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
