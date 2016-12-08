@@ -10,6 +10,8 @@ tags:
   - minimal wave
 ---
 
+<img class='cover' src="{{ page.cover }}"/>
+
 If Suicide and Hailu Mergia had a love baby it would probably sound
 something like Yishak Banjaw's endeavors on Love Songs Vol. 2. Yishak
 Banjaw is a keyboard player from Addis Ababa, Ethiopia. Of course the first

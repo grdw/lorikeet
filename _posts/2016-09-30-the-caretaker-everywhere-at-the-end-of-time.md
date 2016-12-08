@@ -9,6 +9,8 @@ tags:
   - hauntology
 ---
 
+<img class='cover' src="{{ page.cover }}"/>
+
 <div class="intro">
   <p>
   I sit alone in a place I can't quite remember the name of. The waiter
