@@ -7,7 +7,7 @@ title: 'Posts'
   <h1>Posts</h1>
 </div>
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <div class='pg post'>
     <h2>
       <a href="{{ post.url }}">
@@ -32,3 +32,18 @@ title: 'Posts'
     </p>
   </div>
 {% endfor %}
+
+<!-- Pagination links -->
+<div class="pg pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
