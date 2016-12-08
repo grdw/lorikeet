@@ -33,9 +33,9 @@ tags:
   Because of that, the music has a rather child-like tone to it. Most instrumentals
   could have been imagined, being used as an intro for a 60s/70s kids tv-show,
   reminiscent of Fingermouse
-  <a src="https://www.youtube.com/watch?v=1JEmVTilolg" target='_blank'>[2]</a>, Les Onyx
-  <a src="https://www.youtube.com/watch?v=qo00n_gX6x8" target='_blank'>[3]</a> or The Moomins
-  <a src="https://soundcloud.com/finderskeepersrecords/partytime" target='_blank'>[4]</a> for that matter. Other
+  <a href="https://www.youtube.com/watch?v=1JEmVTilolg" target='_blank'>[2]</a>, Les Onyx
+  <a href="https://www.youtube.com/watch?v=qo00n_gX6x8" target='_blank'>[3]</a> or The Moomins
+  <a href="https://soundcloud.com/finderskeepersrecords/partytime" target='_blank'>[4]</a> for that matter. Other
   instrumentals sound more sinister and have a more 'eerie' vibe.
   It also, in a way, sounds similar to early Peaking Lights or Lucky Dragons.
 </p>
