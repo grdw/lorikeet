@@ -7,9 +7,9 @@ layout: default
 </div>
 
 <div class='pg gigs'>
-	<div class='bird-side'>
-		<img src='img/bird-side.png'/>
-	</div>
+  <div class='bird-side'>
+    <img src='img/bird-side.png'/>
+  </div>
 
   <ul>
     {% for event_hash in site.data.events %}
@@ -17,10 +17,10 @@ layout: default
         <strong> {{ event_hash[0] }}</strong>
         <ul>
           {% for event in event_hash[1] %}
-						{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-						{% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
+            {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+            {% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
 
-						<li class="{% if posttime < nowunix %}old{% endif %}">
+            <li class="{% if posttime < nowunix %}old{% endif %}">
               <span>{{ event['date'] | date: '%d/%m' }}</span>
               {{ event['event'] }}
             </li>
@@ -37,12 +37,12 @@ layout: default
 </div>
 
 {% if site.live %}
-	<div class="pg live">
-		<strong class="live">Currently live!</strong>
-		<div id="mpd" data-src="{{ site.live_url }}"></div>
-	</div>
+  <div class="pg live">
+    <strong class="live">Currently live!</strong>
+    <div id="mpd" data-src="{{ site.live_url }}"></div>
+  </div>
 {% else %}
-	<div class='pg mixcloud'>
+  <div class='pg mixcloud'>
     <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed={{ site.mixcloud_url }}' width='100%'></iframe>
-	</div>
+  </div>
 {% endif %}

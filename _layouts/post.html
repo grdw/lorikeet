@@ -6,12 +6,10 @@ layout: default
   <h1>
     {{ page.title }}
 
-    ({% if page.original_year %}{{ page.original_year }} - {% endif %}{{ page.year }})
+    {% if post.year %}
+      ({% if page.original_year %}{{ page.original_year }} - {% endif %}{{ page.year }})
+    {% endif %}
   </h1>
 
   {{ content }}
-</div>
-
-<div class="pg post">
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 </div>
