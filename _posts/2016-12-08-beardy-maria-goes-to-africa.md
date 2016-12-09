@@ -19,7 +19,7 @@ tags:
 
 <p>
   The show on the 16th will be the last time I'll perform as 'Beardy Maria' and
-  from than on I'll just use 'Lorikeet' as my DJ alias and stick with that for
+  from then on I'll just use 'Lorikeet' as my DJ alias and stick with that for
   the time being.
 </p>
 
