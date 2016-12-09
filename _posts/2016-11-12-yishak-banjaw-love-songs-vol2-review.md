@@ -58,3 +58,5 @@ record thus far are: "Ageren Ayehuwat" and "Yadah". This release stands out in t
 whole diversity of Ethiopian music I've managed to hear so far, purely due to
 it's experimental and psychedelic nature. It's the Ethiopian sound re-invented and
 pushed beyond it's limits, 30 years to late. <b>[7+/10]</b>
+
+{% include license.html %}

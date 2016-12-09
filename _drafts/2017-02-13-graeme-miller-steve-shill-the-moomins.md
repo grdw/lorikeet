@@ -10,4 +10,8 @@ tags:
   - electronic
 ---
 
+<img class='cover' src="{{ page.cover }}"/>
+
 FOOKIN AMAZIN 10/10
+
+{% include license.html %}

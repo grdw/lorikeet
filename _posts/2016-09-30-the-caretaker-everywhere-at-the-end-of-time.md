@@ -117,3 +117,5 @@ is full of lovely, soothing, haunting music that will grow a more and more
 detailed imaginative image of what the 1920s might have been like to someone
 who never experienced it <b>[8/10]</b>.
 </p>
+
+{% include license.html %}
