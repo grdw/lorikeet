@@ -48,7 +48,7 @@ tags:
   <a href='https://loveallday.bandcamp.com/track/country-of-love' target='_blank'>[5]</a>
   which is an 8 minute during ethereal track which has this
   hauntingly nice synth in it. Another track I seem to really come
-  back to is Hare Om which is a more darker track with
+  back to is 'Haré Om' which is a more darker track with
   a little bit of an oriental feel, which bleeds in really nice
   with the following track 'Highland Memories'. Other track which are great
   are 'I Am That I Am', 'The Call', the really cheerful 'Song Without Warning'
@@ -59,7 +59,7 @@ tags:
   Some of the tracks on here are well past the 6 to 8 minute mark. This makes some
   of these tracks hard to go through; a rather tough listen. This is mainly because
   some of them are rather repetitive and therefore boring. A song like 'I Am Om'
-  loses it's sense of passion a little bit after the 20th time hearing 'Iiiiiii
+  loses it's sense of passion a little bit, after the 20th time hearing 'Iiiiiii
   aaaaaaam Ooooooohhhm'. Of course stating that this record feels more like a compilation
   than a single coherent piece, it is rather easy to skip a track and don't
   loose the overall sustain of the music.
