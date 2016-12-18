@@ -14,8 +14,8 @@ items:
   content: >
     Somehow I keep having a tendency to buy steel band recordings. They never
     seem to stay that long in my record collection, but this one caught my eye
-    because all the musicians were appearantly sailors who were inspired by
-    the music they heared on Trinidad. The typical steel drum mood on this
+    because all the musicians were apparantly sailors who were inspired by
+    the music they heard on Trinidad. The typical steel drum mood on this
     record sound really 'eerie' and distant. Almost as though the recording
     equipment wasn't that nicely tuned. It gives a little extra dimension
     to the overall listening experience. But all in all it's still an average
