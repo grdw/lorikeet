@@ -41,7 +41,9 @@ items:
     Pierre Henry, one of the pioneers of musique conrète works together with
     Michel Colombier to give you a library 'rock' record on the A side and a
     typical musique concrète sound experimental on the B side. The
-    track 'Psyché Rock" sounds like "Wild Thing" from The Troggs performed by
+    track 'Psyché Rock"
+    <a href="https://www.youtube.com/watch?v=0uZz6nBuS70" target="_blank">[1]</a>
+    sounds like "Wild Thing" from The Troggs performed by
     United States Of America. It contains those
     same typical Alien science fiction sound effects in combination with a really
     typical psychedelic rock groove. It's a really great electronic / odd ball
