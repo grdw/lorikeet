@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Crate digging #1
-year: 2016
+title: Crate digging
+year: 2016-12-17
 cover: '/img/2016/12/13.jpg'
 tags:
 - list
