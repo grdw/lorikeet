@@ -75,7 +75,7 @@ items:
   <p>
     Today I'm blogging about something new which I might be doing for a long
     time; discussing my recent findings on one of many crate digging adventures.
-    Yesterday I spend a few moments of my days in Good Times; a small yet cozy
+    Yesterday I spend a few moments of my day in Good Times; a small yet cozy
     record store located near my house. What I found was pretty amazing:
   </p>
 </div>
