@@ -38,18 +38,34 @@ tags:
 </p>
 
 <p>
-  What do I like about this.
-
-  - Calico (fuzzy, reverb over the xylophones, hauntingly beautiful vocals in
-    after the 2 minute mark of the track, the melody is really mysterious and really
-    progresses well)
+  The top track of this record has to be the opening track 'Calico'. It has
+  these intense fuzzy reverb over the xylophones and these hauntingly
+  beautiful vocals after the 3 minute mark of the track. The melody is really
+  beautiful and progresses really well. Another track I keep coming back to is
+  'Petals' which uses this very simple loop but features some of the craziest
+  modulated xylophone sounds which are used as some sort of percussion instead
+  of as a lead instrument.
 </p>
 
 <p>
-  What don't I like.
+  The thing I like less about the record is the cover art. It's a thing which
+  doesn't really seem to match the music. It's a hand with a colorful rock in
+  it. It feels a bit cheap; like they took a single picture and said: 'tada,
+  there is the cover'. About the album as a whole there's a single track which
+  I don't really perticulary like and that's the last track on the A-side called
+  'Golden Light'. It features these spoken word Yoga instructor texts which
+  feel a little cheesy. There's some modulation over the vocals but it doesn't
+  really add something to the sounds.
+</p>
 
-  - cover art
-  - golden light (track A5)
+<p>
+  Overall 'Versatile Ambiance' by Rod Hamilton & Tiffany Seal is a nice album
+  to listen to. It features some very nice and relaxing tracks and some of the most
+  creative use of xylophones and marimba's. The downside is that the cover art
+  and some of the tracks feel a little sloppy and not well thought through.
+  Because of that, you can really lose your sense of immersiveness. Like somebody
+  who snaps his finger besides your ear and says: 'wake up'
+  <strong>[5.5/10]</strong>.
 </p>
 
 {% include license.html %}
