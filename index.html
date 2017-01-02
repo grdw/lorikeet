@@ -21,8 +21,8 @@ layout: default
             {% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
 
             <li class="{% if posttime < nowunix %}old{% endif %}">
-              <span>{{ event['date'] | date: '%d/%m' }}</span>
-              {{ event['event'] }}
+              <span class="date">{{ event['date'] | date: '%d/%m' }}</span>
+              <span class="event-name">{{ event['event'] }}</span>
             </li>
           {% endfor %}
         </ul>
