@@ -1,5 +1,5 @@
 live: false
 live_url: 'http://178.84.201.59:40504/lorikeet.ogg'
-mixcloud_url: 'https://www.mixcloud.com/lorikeet/goes-to-africa/'
+mixcloud_url: 'https://www.mixcloud.com/lorikeet/soundcraft/'
 paginate: 3
 paginate_path: '/posts/page:num/'
