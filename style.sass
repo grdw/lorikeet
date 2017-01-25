@@ -4,9 +4,12 @@
 ---
 
 $purple:       #f3e0c6
-$green:        #db5786
-$orange:       #bfc967
+$pink:        #db5786
 $light-orange: #ce8caa
+
+@font-face
+  font-family: iphis
+  src: url(js/Iphis.ttf)
 
 body
   background-image: url('img/bg.jpg')
@@ -16,27 +19,27 @@ body
   margin: 0
 
   .menu
+    background-color: $pink
+    text-align: center
     ul
-      margin: 0 0 -10px 0
+      margin: 0
       z-index: 2
       position: relative
 
       > li
         list-style-type: none
         display: inline-block
-
-        &:first-child
-          margin-left: 12px
+        padding: 10px 0
 
         &.disabled
           background-color: #999
 
-        a
-          background-color: $orange
-          padding: 5px 10px
+        &:hover
+          background-color: $light-orange
 
-          &:hover
-            background-color: $light-orange
+        a
+          padding: 15px 20px
+          border-bottom: none
 
   .center
     width: 540px
@@ -49,11 +52,24 @@ body
 
 .bird-side
   position: absolute
-  top: 0
-  right: -163px
+
+  a
+    border-bottom: none
+
+    div
+      font-size: 120%
+
+  &.right
+    top: 50px
+    right: -163px
+    text-align: right
+
+  &.left
+    top: 250px
+    left: -163px
 
 h2
-  border-bottom: 4px solid $green
+  border-bottom: 4px solid $pink
   display: inline-block
   margin-bottom: 0px
 
@@ -65,25 +81,6 @@ p.small-logo
 
 p, li
   line-height: 1.5em
-
-img
-  &.logo
-    -webkit-transition-duration: 0.8s
-    -moz-transition-duration: 0.8s
-    -o-transition-duration: 0.8s
-    transition-duration: 0.8s
-    -webkit-transition-property: -webkit-transform
-    -moz-transition-property: -moz-transform
-    -o-transition-property: -o-transform
-    transition-property: transform
-
-    &.small
-      width: 200px
-
-  &:active
-    -webkit-transform: rotate(360deg)
-    -moz-transform: rotate(360deg)
-    -o-transform: rotate(360deg)
 
 ul
   padding: 0
@@ -100,14 +97,16 @@ ul
           > .event-name
             text-decoration: line-through
       strong
-        border-bottom: 1px solid $green
+        border-bottom: 1px solid $pink
         margin-bottom: 5px
         display: inline-block
   ul > li span.date
-    padding-right: 12px
-    border-right: solid $orange 1px
+    padding: 2px 5px
+    border-right: solid $pink 1px
     font-weight: bold
     margin: 10px 0
+    background-color: $pink
+
   li
     list-style-type: none
 
@@ -117,7 +116,7 @@ em.note
 
 a
   text-decoration: none
-  border-bottom: 2px dotted $green
+  border-bottom: 2px dotted $pink
   font-weight: bold
   color: black
   &:visited, &:active
@@ -126,8 +125,8 @@ a
 div.pg
   position: relative
   padding: 15px 20px
-  border-bottom: 5px $green dotted
-  background-color: $purple
+  border-bottom: 5px $pink dotted
+  background-color: #f3f3f3
 
   &.pagination
     text-align: center
@@ -135,6 +134,13 @@ div.pg
   &.logo
     background-color: transparent
     border-bottom: none
+    padding: 0
+
+    h1
+      font-family: 'iphis'
+      font-size: 130px
+      margin: 50px 0 8px
+      color: #493333
 
     a
       border: none
@@ -146,9 +152,10 @@ div.pg
     padding: 0
     border-bottom: none
     background-color: transparent
+    margin-bottom: -4px
 
   &.live
-    background-color: $green
+    background-color: $pink
     text-align: center
 
     img.live
@@ -177,13 +184,13 @@ div.pg
 
       li
         display: inline-block
-        background-color: $orange
+        background-color: $pink
         padding: 2px 5px
         color: white
         margin-bottom: 5px
 
 a.btn
-  background-color: $orange
+  background-color: $pink
   border-bottom: none
   padding: 9px 18px
   font-size: 120%
@@ -198,16 +205,6 @@ a.btn
 
 footer
   margin: 25px 0 15px 0
-  span a
-    background-color: $green
-    padding: 2px 4px 0px 4px
-    font-weight: bold
-    margin: 10px 0
-    box-shadow: 2px 2px 0px 2px $orange
-    border-bottom: none
-    &:hover
-      background-color: $green
-      box-shadow: 0px 2px 0px 2px $orange
 
 .slider-wrapper
   position: relative

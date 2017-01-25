@@ -2,14 +2,20 @@
 layout: default
 ---
 
-<div class='pg'>
-  <h1>Events</h1>
-</div>
+{% if site.live %}
+	<div class="pg live">
+		<img class='live' src="/img/live-sticker.png"/>
+		<div id="mpd" data-src="{{ site.live_url }}"></div>
+	</div>
+{% else %}
+	<div class='pg mixcloud'>
+		<iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed={{ site.mixcloud_url }}' width='100%'></iframe>
+	</div>
+{% endif %}
+
 
 <div class='pg gigs'>
-  <div class='bird-side'>
-		<img src='img/bird-side.png'/>
-  </div>
+	<h2>Gigs</h2>
 
   <ul>
     {% for event_hash in site.data.events %}
@@ -29,20 +35,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <div class='buttons'>
-    <a class='btn big' href='mailto:bird@lorikeet.nl'>Book</a>
-  </div>
-
 </div>
-
-{% if site.live %}
-  <div class="pg live">
-		<img class='live' src="/img/live-sticker.png"/>
-    <div id="mpd" data-src="{{ site.live_url }}"></div>
-  </div>
-{% else %}
-  <div class='pg mixcloud'>
-    <iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed={{ site.mixcloud_url }}' width='100%'></iframe>
-  </div>
-{% endif %}
