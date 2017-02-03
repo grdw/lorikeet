@@ -3,9 +3,8 @@
 #
 ---
 
-$purple:       #f3e0c6
-$pink:         #db5786
-$light-orange: #ce8caa
+$pink:         #dcdc9c
+$light-orange: #E54374
 
 @font-face
   font-family: iphis
@@ -43,7 +42,7 @@ body
 
   .center
     width: 540px
-    margin: 0px auto
+    margin: 20px auto
 
     .pages
       box-shadow: 0px 2px 20px 1px #444
@@ -125,6 +124,12 @@ a
   &:visited, &:active
     color: black
 
+div.birds
+  text-align: center
+  position: relative
+  z-index: -1
+  height: 300px
+
 div.pg
   position: relative
   padding: 15px 20px
@@ -142,13 +147,8 @@ div.pg
     background-color: transparent
     border-bottom: none
     padding: 0
-
-    h1
-      font-family: 'iphis'
-      font-size: 130px
-      margin: 50px 0 8px
-      color: #EEC72B
-      text-shadow: 2px 3px 3px #444
+    height: 270px
+    z-index: -1
 
     a
       border: none
