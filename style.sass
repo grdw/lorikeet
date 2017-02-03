@@ -22,7 +22,6 @@ body
     text-align: center
     ul
       margin: 0
-      z-index: 2
       position: relative
 
       > li
@@ -43,6 +42,7 @@ body
   .center
     width: 540px
     margin: 20px auto
+    padding-top: 175px
 
     .pages
       box-shadow: 0px 2px 20px 1px #444
@@ -125,10 +125,8 @@ a
     color: black
 
 div.birds
-  text-align: center
+  background: url('/img/birds.png') no-repeat top center
   position: relative
-  z-index: -1
-  height: 300px
 
 div.pg
   position: relative
@@ -148,7 +146,7 @@ div.pg
     border-bottom: none
     padding: 0
     height: 270px
-    z-index: -1
+    overflow: hidden
 
     a
       border: none
@@ -242,13 +240,11 @@ span.or
   margin: 10px 0
 
 @media only screen and (max-width: 575px)
-  body
-    margin: 0 5px
-
   body .center
     width: 100%
+
     margin: auto
-    padding: 0
+    padding-top: 0
 
   h1
     font-size: 120%
@@ -263,10 +259,6 @@ span.or
     width: calc(100% - 10px)
     width: -moz-calc(100% - 10px)
     width: -webkit-calc(100% - 10px)
-
-  div.pg.logo h1
-    font-size: 430%
-    text-align: center
 
   img
     width: 100%
