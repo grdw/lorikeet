@@ -26,10 +26,10 @@ layout: default
             {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
             {% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
 
-            <li class="{% if posttime < nowunix %}old{% endif %}">
+            <li class="{% if posttime < nowunix %}old{% endif %}" title="{% if event['as'] %}as {{ event['as'] }}{% endif %}">
               <span class="date">{{ event['date'] | date: '%d/%m' }}</span>
               <span class="event-name">{{ event['event'] }}</span>
-            </li>
+						</li>
           {% endfor %}
         </ul>
       </li>
