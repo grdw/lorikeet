@@ -89,11 +89,13 @@ items:
 <div class='pg post'>
   <h1>{{ page.title }}</h1>
   <p>
-		As a follow up to my crate digging adventures last year, this is going
+		As a follow up to my crate digging adventures
+ 		<a href="/2016/12/18/recent-records-found.html">last year</a>, this is going
     to be my first episode of 2017. And a special one it will be. This january
-    I found a nice Turkish webshop which sold a lot of Turkish music which
+    I found a nice
+		<a href="https://www.matarailgievi.com/" target="_blank">Turkish webshop</a> which sold a lot of Turkish music which
     sounded very interesting to my ears. I decided to buy a total of eleven
-    singles of which 9 I will present to you:
+    singles of which nine I will present to you:
   </p>
 </div>
 
