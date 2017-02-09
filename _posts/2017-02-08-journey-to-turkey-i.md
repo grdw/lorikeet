@@ -73,8 +73,7 @@ items:
   cover: '/img/2017/02/12.jpg'
   content: >
     "The A-side is a fair and quick polka track which doesn't sparkle too much
-     of the senses. Luckily that B-side hops from one spacy organ to the other
-     it"
+     of the senses. Luckily that B-side hops from one spacy organ to the other."
 
 - title: "Kenan - Halimize Baksana - Bom Çiki Bom"
   label: "Hop"
