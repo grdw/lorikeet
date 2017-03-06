@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Going to india!
+title: Indian Sunday
 cover: '/img/2017/03/66.jpg'
 tags:
 - DJ
