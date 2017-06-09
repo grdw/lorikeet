@@ -9,10 +9,10 @@ tags:
 - morocco
 
 items:
-- title: "Esin Afsar - Zühtu / Kaz"
-  label: "Odeon"
-  cover: '/img/2017/02/4.jpg'
-  content: >
+- title:
+  label:
+  cover:
+  content:
 
 ---
 
@@ -20,8 +20,9 @@ items:
   <h1>{{ page.title }}</h1>
   <p>
     This is going to be a long piece of text, so be prepared. Finding
-    music from Morocco is not easy, but when you do find it, it's like
-    unearthing treasures from a different world.
+    music on vinyl in Morocco is not easy, but when you do find it,
+    it feels like unearthing treasures straight from an Indian Jones
+    movie (or at least, it did to me).
   </p>
   <p>
     Let me start with the beginning. I never listened to Moroccan music
@@ -53,7 +54,7 @@ items:
   </p>
   <p>
     My experience in Disques Gam was not a positive one. As I've managed
-    to read somewhere online { find link }, the man behind the record
+    to read somewhere online [0], the man behind the record
     store (Gam) is not keen on people just touching his records. You
     have to know <i>exactly</i> what you're looking for or else you can
     just get out of the door. Me, being a more, exploring and digging type
@@ -70,23 +71,62 @@ items:
     Le Comptoir Marocain de Distribution de Disques which is a bit
     further down the road. I managed to find it but unfortunately it
     was closed due to the fact that I was visiting during the Ramadan.
+    That was a bummer.
   </p>
   <p>
     The next stop was trying the medina's, which are the old market
     places and city centres in most Moroccon places. Stating that
-    I was in Casablanca I tried the old medina of Casablanca first.
+    I was in Casablanca, I tried the old medina of Casablanca first.
     Lots of stallholders will try to persuade you to buy something in
     their store, knock-off Western products, food, merchandise, cheaply
     build ouds and all the stuff you don't really want. I walked out of
     the medina with nothing and I lost my spirit a litle bit.
   </p>
   <p>
-    Positive bit about medina, haggling and /r/Morocco. And the 16 7"
-    I found :D:D:D:D:D
+    I tried to get help, because this is harder than what I prepared for.
+    I asked people on Reddit (on /r/vinyl and /r/Morocco/) if they
+    had any tips or hints on how to find music in Morocco. And it turns
+    out one of the easiest ways was appearantly showing a man in a souk
+    (the term for one of the market places) on the medina a picture of
+    vinyl and ask where they can be found. Turns out, that for me (
+    a non-Arabic speaking, severly poor-French speaking man),
+    this was the way to do it. A typical Maroccan haggler navigated me
+    through the maze of small streets and souks and got me to a small
+    stand with an older looking, white male, who sold cassettes - at
+    first glance. I than proceeded to show the picture of the records
+    and it turns out that he had a lot of 7 inches. I couldn't listen
+    to any of them, so I bought a stack of 16 7 inches purely based
+    upon the pictures, or names (like Nass El Ghiwane), record label
+    (Boussiphone, Ka...phone) and quality of the records.
   </p>
   <p>
-    Next day, tried to finder other shops, less lucky but found one
-    extra thing
+    I was a lucky man and greed got a bit of the best of me.
+    The next day, I tried to find other shops in the medina of
+    Casablanca. I found one other souk, who sold mainly cassettes and
+    some records on the ground. Most records were Bollywood 7
+    inches, which were fairly easy to get and lots of Western music.
+    I did found one Farid El-Atrache 7 inch which I haven't seen
+    before, which might be cool. The quality was good enough and
+    for 5 Dhm I got another record. There was nothing else in the
+    medina as far as I could find, but maybe somebody else has
+    some tips for a future visit.
+  </p>
+  <p>
+    My next stop was in Tangier. After a tremendous 6 hour train ride
+    in the blazing heat (with a little bit of airconditioning, I
+    must say) I arrived in Tangier. Because of the Ramadan I refrained
+    from eating in front of the general population because it is
+    considered to be rude. Hungry and tired I arrived in Tangier and
+    started reading what other people have found in this city vinyl-wise.
+    Unfortunately there isn't much information to be found on the
+    internet. The only lead I had was a clock-maker in the medina
+    who happens to sell some records [1]. The previous visitor also
+    visited during the Ramadan and it might just be that I would also
+    be out of luck.
+  </p>
+  <p>
+    The coming days I'll make a mixtape of all the music I collected
+    from Morocco. Hopefully you'll enjoy it.
   </p>
 </div>
 
