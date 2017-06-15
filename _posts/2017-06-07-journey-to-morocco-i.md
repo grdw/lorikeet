@@ -28,15 +28,15 @@ tags:
     label called Radio Martiko reissued a record from Abdou El Omari
     called Nuits D'Ete
 
-    {% s 'https://soundcloud.com/radio-martiko/rmlp-001-nuits-dete-avec-abdou-el-omari-zifaf-filfada' %}
-    {% s 'https://soundcloud.com/radio-martiko/rmlp-001-nuits-dete-avec-abdou-el-omari-afrah-el-maghreb' %}.
+    <sr>https://soundcloud.com/radio-martiko/rmlp-001-nuits-dete-avec-abdou-el-omari-zifaf-filfada</sr>
+    <sr>https://soundcloud.com/radio-martiko/rmlp-001-nuits-dete-avec-abdou-el-omari-afrah-el-maghreb</sr>.
 
     A psychedelic, organ heavy record which I
     very much enjoyed. The echoes on the drums and all the weird
     effects makes it a very enjoyable listening experience. In that
     same year a German label reissued a record by Nass El Ghiwane
 
-    {% s 'https://www.youtube.com/watch?v=2kmV1wivlsg' %}.
+    <sr>'https://www.youtube.com/watch?v=2kmV1wivlsg'</sr>.
 
     A bit more traditional Moroccan sounding but enjoyable nonetheless.
   </p>
@@ -47,8 +47,8 @@ tags:
     went before me, but the information on the internet is really slim.
     I did find these articles:
 
-    {% s 'http://psychfunk.com/features/crate-digging-morocco-fes-casablanca/' %}
-    {% s 'https://www.theguardian.com/world/2013/may/14/letter-from-morocco-casablanca-records' %} and others which are listed furthermore in this
+    <sr>http://psychfunk.com/features/crate-digging-morocco-fes-casablanca/</sr>
+    <sr>https://www.theguardian.com/world/2013/may/14/letter-from-morocco-casablanca-records</sr> and others which are listed furthermore in this
     article.
   </p>
 
@@ -58,7 +58,7 @@ tags:
     because Abdou El Omari's music is from Casablanca. In fact, his music
     is reissued from Disques Gam
 
-    {%s 'https://www.google.com/maps/place/99+Boulevard+de+Paris,+Casablanca+20250,+Morocco/@33.5931058,-7.6215903,17z/data=!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d29c79ca0af1:0xadde6c5eb817e19b!8m2!3d33.5922315!4d-7.6168929' %},
+    <sr>https://www.google.com/maps/place/99+Boulevard+de+Paris,+Casablanca+20250,+Morocco/@33.5931058,-7.6215903,17z/data=!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d29c79ca0af1:0xadde6c5eb817e19b!8m2!3d33.5922315!4d-7.6168929</sr>,
 
     which is still a record store you can
     visit in Casablanca itself. I went and things were a bit different
@@ -86,7 +86,7 @@ tags:
     After that disappointing experience at Disques Gam I tried to find
     Le Comptoir Marocain de Distribution de Disques
 
-    {% s 'https://www.google.com/maps/place/Avenue+Lalla+Yacout,+Casablanca+20250,+Morocco/@33.5907286,-7.6156143,17z/data=!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d29de2c09673:0x36b61f70c9ae40a7!8m2!3d33.5902195!4d-7.6120837' %}
+    <sr>https://www.google.com/maps/place/Avenue+Lalla+Yacout,+Casablanca+20250,+Morocco/@33.5907286,-7.6156143,17z/data=!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d29de2c09673:0x36b61f70c9ae40a7!8m2!3d33.5902195!4d-7.6120837</sr>
 
     which is a bit
     further down the road. I managed to find it, but unfortunately it
@@ -100,7 +100,7 @@ tags:
     places and city centers in most Moroccan places. Stating that
     I was in Casablanca, I tried the old medina
 
-    {% s 'https://www.google.com/maps/place/Ancienne+Medina,+Casablanca+20250,+Morocco/@33.6009926,-7.6258712,16z/data=!3m1!4b1!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d2842753b1cf:0xd872188d7a277139!8m2!3d33.6022285!4d-7.6209108' %}
+    <sr>https://www.google.com/maps/place/Ancienne+Medina,+Casablanca+20250,+Morocco/@33.6009926,-7.6258712,16z/data=!3m1!4b1!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d2842753b1cf:0xd872188d7a277139!8m2!3d33.6022285!4d-7.6209108</sr>
 
     of Casablanca first.
     Lots of stallholders will try to persuade you to buy something in
@@ -113,11 +113,11 @@ tags:
     I tried to get help, because this is harder than what I prepared for.
     I asked people on Reddit (on /r/vinyl
 
-    {% s 'https://www.reddit.com/r/vinyl/comments/6ffoq6/as_a_tourist_in_morocco_where_would_i_find_vinyl/?st=j3uhylrn&sh=a2709f63' %}
+    <sr>https://www.reddit.com/r/vinyl/comments/6ffoq6/as_a_tourist_in_morocco_where_would_i_find_vinyl/?st=j3uhylrn&sh=a2709f63</sr>
 
      and /r/Morocco/
 
-    {% s 'https://www.reddit.com/r/Morocco/comments/6ey6om/weekly_thread_for_travel_related_questions/died3fq/' %}) if they
+    <sr>https://www.reddit.com/r/Morocco/comments/6ey6om/weekly_thread_for_travel_related_questions/died3fq/</sr>) if they
     had any tips or hints on how to find music in Morocco. And it turns
     out one of the easiest way is apparantly showing a man in a souk
     (the term for one of the market stalls) on the medina a picture of
@@ -129,7 +129,7 @@ tags:
     first glance (it turns out the man is the same person in
     this picture:
 
-    {% s 'https://www.thevinylfactory.com/wp-content/uploads/2015/01/digging2.png' %}).
+    <sr>https://www.thevinylfactory.com/wp-content/uploads/2015/01/digging2.png</sr>).
 
     I than proceeded to show the picture of the records
     and it turns out that he had a lot of 7 inches. I couldn't listen
@@ -161,15 +161,15 @@ tags:
     the medina
     who happens to sell some records
 
-    {% s 'https://jewishmorocco.blogspot.com/2012/11/record-digging-cassette-collecting-and.html' %}
-    {% s 'https://www.google.com/maps/place/Rue+Nasiria,+Tanger,+Morocco/@35.7858934,-5.8120909,19z/data=!3m1!4b1!4m5!3m4!1s0xd0c7f527f923205:0x746edd383fc74e92!8m2!3d35.7858923!4d-5.8115437' %}.
+    <sr>https://jewishmorocco.blogspot.com/2012/11/record-digging-cassette-collecting-and.html</sr>
+    <sr>https://www.google.com/maps/place/Rue+Nasiria,+Tanger,+Morocco/@35.7858934,-5.8120909,19z/data=!3m1!4b1!4m5!3m4!1s0xd0c7f527f923205:0x746edd383fc74e92!8m2!3d35.7858923!4d-5.8115437</sr>.
 
     The man in the article also
     visited during the Ramadan and I was also out of luck. He had some
     records on display that were very discolored by the sunlight and
     that was it. There was another place that sold records
 
-    {% s 'https://www.google.com/maps/place/Rue+San+Francisco,+Tanger,+Morocco/@35.7842848,-5.8156549,17z/data=!4m5!3m4!1s0xd0c7f52cb762073:0xffd425c6556141c!8m2!3d35.7841482!4d-5.8141695' %}
+    <sr>https://www.google.com/maps/place/Rue+San+Francisco,+Tanger,+Morocco/@35.7842848,-5.8156549,17z/data=!4m5!3m4!1s0xd0c7f52cb762073:0xffd425c6556141c!8m2!3d35.7841482!4d-5.8141695</sr>
 
     right next to the mosque at Place du 9 avril 1947.
     He had the standard Western thrift store sounds: 70s and 80s disco,
@@ -189,10 +189,10 @@ tags:
     hoped to find in the first place - in all honesty. There are a few singles
     which sound good to me like Robert Saghir's 'El Ayn Zergua'
 
-    {% s 'https://www.discogs.com/Robert-Saghir-El-Ayn-Zergua-Khaliouni-Maa-Hbibi/release/9618222' %},
+    <sr>https://www.discogs.com/Robert-Saghir-El-Ayn-Zergua-Khaliouni-Maa-Hbibi/release/9618222</str>,
     Abdelaziz Mahmoud - Chouf Chouf and the Nass El Ghiwane 7 inch
 
-    {% s 'https://www.discogs.com/%D9%86%D8%A7%D8%B3-%D8%A7%D9%84%D8%BA%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D8%AF%D8%A9-%D8%AC%D9%88%D8%AF%D9%8A-%D8%A8%D8%B1%D8%B6%D8%A7%D9%83/release/6584743' %}. But the other singles... Most of them
+    <sr>https://www.discogs.com/%D9%86%D8%A7%D8%B3-%D8%A7%D9%84%D8%BA%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D8%AF%D8%A9-%D8%AC%D9%88%D8%AF%D9%8A-%D8%A8%D8%B1%D8%B6%D8%A7%D9%83/release/6584743</sr>. But the other singles... Most of them
     have either really poor recording quality, bear minimal amount
     of instrumentation and diversity to be even called a song in my opinion, or
     the vocals are mixed at least two times as loud as the instrumentation.
