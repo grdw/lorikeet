@@ -1,94 +1,11 @@
 ---
 layout: default
-title: Crate digging
-year: 2017-07-06
-cover: '/img/2017/02/3.jpg'
+title: Digging in Morocco
+cover: '/img/2017/06/02.jpg'
 tags:
 - list
 - crate digging
 - morocco
-
-items:
-- title: حميد الزهير - فرحة العيون
-  label: Koutoubiaphone
-  cover: '/img/2017/06/02.jpg'
-  content:
-
-- title: Robert Saghir - El Ayn Zergua / Khaliouni Maa Hbibi
-  label: Boussiphone
-  cover: '/img/2017/06/03.jpg'
-  content:
-
-- title: أولاد عباس - أدبي الوالي \ أربي أربي
-  label: Boussiphone
-  cover: '/img/2017/06/04.jpg'
-  content:
-
-- title: عبد الوهاب الدوكالي - هذي هي انت؟
-  label: Phillips
-  cover: '/img/2017/06/05.jpg'
-  content:
-
-- title: ناس الغيوان - الحصادة \ جودي برضاك
-  label: Polydor
-  cover: '/img/2017/06/06.jpg'
-  content:
-
-- title: فريد الأطرش - عمري ماحقدر انساك \ حبيت من غير أمل
-  label: Baidaphon
-  cover: '/img/2017/06/07.jpg'
-  content:
-
-- title: عبد الهادي بلخياط - القمر الأحمر
-  label: Koutoubiaphone
-  cover:
-  content: >
-    FIX PHOTO
-
-- title: abc
-  label: Sono Cairo
-  cover:
-  content:
-
-- title: جيل عمراوة - Jilali / Jilali (suite)
-  label: Philips
-  cover:
-  content:
-
-- title: جيل عمراوة - R'dat al oualdine / Amrawa
-  label: Philips
-  cover:
-  content:
-
-- title:
-  label: Boussiphone
-  cover:
-  content:
-
-- title:
-  label: Boussiphone
-  cover:
-  content:
-
-- title: Kabour Brahim Lala Fdila
-  label: Boussiphone
-  cover:
-  content:
-
-- title:
-  label: Boussiphone
-  cover:
-  content:
-
-- title:
-  label: Boussiphone
-  cover:
-  content:
-
-- title: Abdelaziz Mahmoud - Chouf Chouf
-  label: La Voix Du Globe
-  cover:
-  content:
 
 ---
 
@@ -96,15 +13,13 @@ items:
   <h1>{{ page.title }}</h1>
   <p>
     This is going to be a long piece of text, so be prepared. Finding
-    music on vinyl in Morocco is not easy, but when you do find it,
-    it feels like unearthing treasures straight from an Indian Jones
-    movie (or at least, it did to me). This article will present my
-    list of finds and it will hopefully serve as a guide for other
-    people who are trying to find music. It contains how-to's and
-    locations wich might serve useful for future travelers.
+    music on vinyl in Morocco is not easy,  This article will present my
+    finds and it will hopefully serve as a guide for other
+    people who are trying to find music. It contains my experiences and
+    locations which might serve useful for future travelers.
   </p>
   <p>
-    Let me start with the beginning. I never listened to Moroccan music
+    Let me start with the beginning. I never listened to much Moroccan music
     before somewhere around late 2015. I encountered the sounds on some
     mixtapes and enjoyed it, but I had no idea who was
     playing or
@@ -122,14 +37,12 @@ items:
 
     {% s 'https://www.youtube.com/watch?v=2kmV1wivlsg' %}.
 
-    A bit more traditional Moroccon sounding but enjoyable nontheless.
+    A bit more traditional Moroccan sounding but enjoyable nonetheless.
   </p>
   <p>
     The mixtapes and those two records got me wondering what more can be
-    unearthed
-    from Morocco? Why didn't the Dutch Moroccan populations bring
-    their vinyl to Holland? Can you maybe find vinyl in Morocco itself?
-    To the last question I wanted to find an answer. A lot of people
+    unearthed from Morocco?
+    To that question I wanted to find an answer. A lot of people
     went before me, but the information on the internet is really slim.
     I did find these articles:
 
@@ -156,9 +69,10 @@ items:
   <p>
     My experience in Disques Gam was not a positive one. As I've managed
     to read somewhere online, the man behind the record
-    store (Gam) is not keen on people just touching his records. You
+    store (Gam Boujemma) is not keen on people just touching his records and
+    is very, very protective about them. You
     have to know <i>exactly</i> what you're looking for or else you can
-    just get out of the door. Me, being a more, exploring and digging type
+    just get out of the door. Me, being a more exploring and digging type
     of character, this was not what I was expecting. I looked around and
     eventually the man in the store grunts (in French) something along
     the lines of: "what are you doing here?!". It took me a moment to
@@ -174,15 +88,15 @@ items:
     {% s 'https://www.google.com/maps/place/Avenue+Lalla+Yacout,+Casablanca+20250,+Morocco/@33.5907286,-7.6156143,17z/data=!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d29de2c09673:0x36b61f70c9ae40a7!8m2!3d33.5902195!4d-7.6120837' %}
 
     which is a bit
-    further down the road. I managed to find it but unfortunately it
+    further down the road. I managed to find it, but unfortunately it
     was closed due to the fact that I was visiting Morocco during the
     Ramadan. That was a bummer.
 
   </p>
   <img src='/img/2017/06/01.jpg'/>
   <p>
-    The next stop was trying the medina's, which are the old market
-    places and city centres in most Moroccon places. Stating that
+    The next stop was trying the medinas, which are the old market
+    places and city centers in most Moroccan places. Stating that
     I was in Casablanca, I tried the old medina
 
     {% s 'https://www.google.com/maps/place/Ancienne+Medina,+Casablanca+20250,+Morocco/@33.6009926,-7.6258712,16z/data=!3m1!4b1!4m13!1m7!3m6!1s0xda7d29b1d24c911:0x9db70758bd6ccf90!2sBoulevard+de+Paris,+Casablanca+20250,+Morocco!3b1!8m2!3d33.5931014!4d-7.6194016!3m4!1s0xda7d2842753b1cf:0xd872188d7a277139!8m2!3d33.6022285!4d-7.6209108' %}
@@ -191,7 +105,7 @@ items:
     Lots of stallholders will try to persuade you to buy something in
     their store, knock-off Western products, food, merchandise, cheaply
     build ouds and all the stuff you don't really want. I walked out of
-    the medina with nothing and I lost my spirit a litle bit.
+    the medina with nothing and I lost my spirit a little bit.
   </p>
   <strong>Sigh...</strong>
   <p>
@@ -204,11 +118,11 @@ items:
 
     {% s 'https://www.reddit.com/r/Morocco/comments/6ey6om/weekly_thread_for_travel_related_questions/died3fq/' %}) if they
     had any tips or hints on how to find music in Morocco. And it turns
-    out one of the easiest ways is appearantly showing a man in a souk
+    out one of the easiest way is apparantly showing a man in a souk
     (the term for one of the market stalls) on the medina a picture of
     vinyl and ask where they can be found. It turns out that for me
-    (a non-Arabic speaking, severly poor-French speaking man),
-    this was the way to do it. A typical Maroccan haggler navigated me
+    (a non-Arabic speaking, severely poor-French speaking man),
+    this was the way to do it. A typical Moroccan haggler navigated me
     through the maze of small streets and souks and got me to a small
     stand with an older looking, white male, who sold cassettes - at
     first glance (it turns out the man is the same person in
@@ -223,7 +137,7 @@ items:
     record label (Boussiphone, Koutoubiaphone) and quality of the records.
   </p>
   <p>
-    I was a lucky man and greed got a bit of the best of me.
+    I felt like I was a lucky man and greed got a bit of the best of me.
     The next day, I tried to find other shops in the medina of
     Casablanca. I found one other souk, who sold mainly cassettes and
     some records on the ground. Most records were Bollywood 7
@@ -236,7 +150,7 @@ items:
   </p>
   <p>
     My next stop was in Tangier. After a tremendous 6 hour train ride
-    in the blazing heat (with a little bit of airconditioning, I
+    in the blazing heat (with a little bit of air conditioning, I
     must say) I arrived in Tangier. Because of the Ramadan I refrained
     from eating in front of the general population because it is
     considered to be rude. Hungry and tired I arrived in Tangier and
@@ -257,43 +171,53 @@ items:
     {% s 'https://www.google.com/maps/place/Rue+San+Francisco,+Tanger,+Morocco/@35.7842848,-5.8156549,17z/data=!4m5!3m4!1s0xd0c7f52cb762073:0xffd425c6556141c!8m2!3d35.7841482!4d-5.8141695' %}
 
     right next to the mosque at Place du 9 avril 1947.
-    He only had 70s and 80s disco, funk and soul music and classical
+    He had the standard Western thrift store sounds: 70s and 80s disco,
+    funk and soul music and classical
     music, which wasn't what I was looking for. On the medina I did find
     lots of places that sold CD's and a few that sold cassettes. But
     vinyl is not a thing you would find easily in Tangier. I should
     probably have headed out for Fez.
   </p>
-  <p>
-    The coming days I'll make a mixtape of all the music I collected
-    from Morocco and other arabic music I already own. Hopefully you'll
-    enjoy it.
-  </p>
-</div>
 
-<div>
-  <div class='pg post'>
-    <strong>My finds:</strong>
-  </div>
-  {% for item in page.items %}
-    <div class='pg post'>
-      <h2>{{ item.title }}</h2>
-      <div>
-        <i>{{ item.label }}</i>
-      </div>
-      <p>
-        {% if item.listen_url %}
-          <a href="{{ item.listen_url }}" target="_blank">
-            <img class="cover" src="{{ item.cover }}"/>
-          </a>
-        {% else %}
-          <img class="cover" src="{{ item.cover }}"/>
-        {% endif %}
-      </p>
-      <p>
-        {{ item.content }}
-      </p>
-    </div>
-  {% endfor %}
+  <strong>My finds:</strong>
+  <img src='/img/2017/06/02.jpg'/>
+  <p>
+    At home, one of the first things I did was listening to my finds. The music
+    I've found is mostly very
+    traditional sounding Moroccan or Egyptian music. Not entirely what I
+    hoped to find in the first place - in all honesty. There are a few singles
+    which sound good to me like Robert Saghir's 'El Ayn Zergua'
+
+    {% s 'https://www.discogs.com/Robert-Saghir-El-Ayn-Zergua-Khaliouni-Maa-Hbibi/release/9618222' %},
+    Abdelaziz Mahmoud - Chouf Chouf and the Nass El Ghiwane 7 inch
+
+    {% s 'https://www.discogs.com/%D9%86%D8%A7%D8%B3-%D8%A7%D9%84%D8%BA%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D8%AF%D8%A9-%D8%AC%D9%88%D8%AF%D9%8A-%D8%A8%D8%B1%D8%B6%D8%A7%D9%83/release/6584743' %}. But the other singles... Most of them
+    have either really poor recording quality, bear minimal amount
+    of instrumentation and diversity to be even called a song in my opinion, or
+    the vocals are mixed at least two times as loud as the instrumentation.
+    It's probably not music that's made for me. I like my oriental music a bit
+    more with either some beat or funky undertones in it. I'll try to add the releases
+    that aren't on Discogs to Discogs. It's the least I can do.
+  </p>
+
+  <p>
+    Morocco is not an easy country to find music on vinyl. You have to know
+    exactly what you're looking for. Of course without much resources online and with
+    almost none but the most popular of songs, being available digitally,
+    it's hard to do any proper research. I took a wild random exploratory shotgun shot
+    at finding music from Morocco and I know now how hard it really is. This
+    journey gives me even more respect for the likes of labels like Radio
+    Martiko, Habibi Funk and others, who are out in this field for many years.
+    Eventhough the music is not entirely as I expected it to sound I've learned
+    a lot about Morocco, it's country, the culture, the Ramadan,
+    the heat and of course the haggling. Hopefully this article will serve
+    useful to other crate diggers and future travellers.
+  </p>
+  <p>
+    <strong>
+      <a href='' target='_blank'>Leave a comment on the post entry on Reddit /r/Vinyl.</a>
+    </strong>
+  </p>
 </div>
 
 <div class='pg post'>
