@@ -2,6 +2,7 @@
 layout: default
 title: Digging in Morocco
 cover: '/img/2017/06/02.jpg'
+class: 'collapse'
 tags:
 - list
 - crate digging
