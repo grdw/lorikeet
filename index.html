@@ -19,12 +19,25 @@ layout: default
 
   <ul>
     {% for event_hash in site.data.events %}
+      {% capture nowyear %}
+        {{ 'now' | date: '%Y' }}
+      {% endcapture %}
+
+      {% capture year %}
+        {{ event_hash[0] }}
+      {% endcapture %}
+
       <li>
         <strong> {{ event_hash[0] }}</strong>
-        <ul>
+        <ul class="{% if year == nowyear %}open{% endif %}">
           {% for event in event_hash[1] %}
-            {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-            {% capture posttime %}{{ event['date'] | date: '%s'}}{% endcapture%}
+            {% capture nowunix %}
+              {{'now' | date: '%s'}}
+            {% endcapture %}
+
+            {% capture posttime %}
+              {{ event['date'] | date: '%s'}}
+            {% endcapture%}
 
             <li class="{% if posttime < nowunix %}old{% endif %}" title="{% if event['as'] %}as {{ event['as'] }}{% endif %}">
               <span class="date">{{ event['date'] | date: '%d/%m' }}</span>

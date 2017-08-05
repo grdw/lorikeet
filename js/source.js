@@ -11,4 +11,8 @@ $(document).ready(function () {
 
         $(this).replaceWith(link);
     });
+
+    $("div.pg.gigs > ul > li > strong").on("click", function () {
+        $(this).siblings("ul").toggleClass("open");
+    });
 });

@@ -96,20 +96,30 @@ ul
   padding: 0
 
 .gigs
+  strong
+    border-bottom: 1px solid $pink
+    margin-bottom: 5px
+    display: inline-block
+
+    &:hover
+      cursor: pointer
+
   > ul > li
     margin-bottom: 20px
-    >
-      ul > li
+
+    > ul
+      display: none
+      &.open
+        display: block
+
+      > li
         line-height: 35px
         &.old
           opacity: 0.5
 
           > .event-name
             text-decoration: line-through
-      strong
-        border-bottom: 1px solid $pink
-        margin-bottom: 5px
-        display: inline-block
+
   ul > li span.date
     padding: 2px 5px
     border-right: solid $pink 1px
