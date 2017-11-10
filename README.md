@@ -3,7 +3,6 @@ Lorikeet
 
 Website for hobby purposes http://lorikeet.nl
 
-
 # About (EN):
 
     "A Lorikeet is a small to medium sized arboreal parrot. The majority
