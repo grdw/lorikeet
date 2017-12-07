@@ -19,17 +19,13 @@ layout: default
 
   <ul>
     {% for event_hash in site.data.events %}
-      {% capture nowyear %}
-        {{ 'now' | date: '%Y' }}
-      {% endcapture %}
-
       {% capture year %}
         {{ event_hash[0] }}
       {% endcapture %}
 
       <li>
         <strong> {{ event_hash[0] }}</strong>
-        <ul class="{% if year == nowyear %}open{% endif %}">
+        <ul class="{% if forloop.index == 1 %}open{% endif %}">
           {% for event in event_hash[1] %}
             {% capture nowunix %}
               {{'now' | date: '%s'}}
