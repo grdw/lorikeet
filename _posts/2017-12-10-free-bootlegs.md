@@ -57,7 +57,8 @@ tags:
     <li>Don't be a dick:
       <ol>
         <li>
-          If I find out that you are selling them yourself, you are a dick.
+          If I find out that you only want these records so you can sell them yourself,
+          than you are a dick.
         </li>
         <li>
           If you however - in time - find that the music is getting a bit
