@@ -16,8 +16,8 @@ tags:
   <sr>https://thevinylfactory.com/features/do-bootlegs-matter-what-discogs-new-crackdown-means-for-future/</sr>.
   For people who don't know what they are: bootlegs are records
   which are unofficially released without the artists consent or
-  label's consent for that matter. I have 10 of these which I had
-  for sale, but Discogs found that inappropriate to do. I agree.
+  label's consent for that matter. I have 10 bootlegs, which I had
+  for sale. Discogs found that inappropriate to do. I agree.
 </p>
 
 <p>
@@ -37,12 +37,12 @@ tags:
 <p>
   The problem still remains that I have 10 bootleg records laying
   around which I don't particular like anymore; bought in a rush or
-  they got boring over time. I feel that I can't ask any money for
+  got boring over time. I feel that I can't ask any money for
   these records, for the artist in question wouldn't get any of it
   anyway. So for the sake of doing a bit of justice to the bootleg
-  record I'm giving them away for free, so €0,- - much like the value
-  of an illegally downloaded mp3. I do have conditions for giving
-  them away:
+  record and feeling a little like Santa: I'm giving them away for free,
+  so €0,- - much like the value of an illegally downloaded mp3. I do
+  have conditions for giving them away:
 </p>
 
 <p>
