@@ -31,7 +31,9 @@ tags:
   into their music. I find it to be stealing food out of the artists
   mouth and a form of theft. In another way I also find it's making
   the artist's music more known, even though it is through an illegal
-  bootleg.
+  bootleg. I would still knowingly and unknowingly buy an illegal
+  bootleg - if the music is good, but when it comes to selling it, it
+  becomes a different story in my opinion.
 </p>
 
 <strong>Enough opinions already!</strong>
