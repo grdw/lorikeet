@@ -34,6 +34,8 @@ tags:
   bootleg.
 </p>
 
+<strong>Enough opinions already!</strong>
+
 <p>
   The problem still remains that I have 10 bootleg records laying
   around which I don't particularly like anymore; bought in a rush or
@@ -120,7 +122,7 @@ tags:
 
 <p>
   In order to get one (or max two) send an email to: bird@lorikeet.nl and state a little bit about why you want to
-  have the music + some details where to ship them to. After you've paid the shipment costs to Paypal or my bank
+  have the music + some details where to ship them to. After you've paid the shipment costs to my Paypal or my bank
   account, I'll ship them to you.
 </p>
 <p>
