@@ -118,7 +118,8 @@ tags:
 </p>
 
 <p>
-  In order to get one (or max two) send an email to: bird@lorikeet.nl and state a little bit about why you want to have the music, I'm always interested to know.
+  In order to get one (or max two) send an email to: bird@lorikeet.nl and state a little bit about why you want to
+  have the music + some details where to ship them to.
 </p>
 <p>
   Greetings and love,
