@@ -36,7 +36,7 @@ tags:
 
 <p>
   The problem still remains that I have 10 bootleg records laying
-  around which I don't particular like anymore; bought in a rush or
+  around which I don't particularly like anymore; bought in a rush or
   got boring over time. I feel that I can't ask any money for
   these records, for the artist in question wouldn't get any of it
   anyway. So for the sake of doing a bit of justice to the bootleg
