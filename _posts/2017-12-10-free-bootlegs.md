@@ -120,7 +120,8 @@ tags:
 
 <p>
   In order to get one (or max two) send an email to: bird@lorikeet.nl and state a little bit about why you want to
-  have the music + some details where to ship them to.
+  have the music + some details where to ship them to. After you've paid the shipment costs to Paypal or my bank
+  account, I'll ship them to you.
 </p>
 <p>
   Greetings and love,
