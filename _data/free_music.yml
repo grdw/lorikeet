@@ -1,0 +1,136 @@
+- artist: Blonde On Blonde
+  title: Rebirth
+  label: Ember Records
+  label_id: NR 5049
+  genre:
+    - 70s
+    - Prog Rock
+    - Psychedelic Rock
+  condition:
+    vinyl: VG+,
+    cover: NM
+
+- artist: The Growing Concern
+  title: The Growing Concern
+  label: Phoenix Records
+  label_id: ASHLP3020
+  genre:
+    - 60s
+    - Pop Rock
+    - Psychedelic Rock
+  condition:
+    vinyl: NM
+    cover: NM
+
+- artist: The Loot
+  title: Singles A's And B's
+  label: Radioactive Records
+  label_id: RRLP057
+  genre:
+    - 60s
+    - Garage Rock
+    - Psychedelic Rock
+  condition:
+    vinyl: VG+
+    cover: VG+
+    extra: "Limited: 958/1000"
+
+- artist: Magical Power Mako
+  title: Super Record
+  label: Phoenix Records
+  label_id: ASHLP3039
+  genre:
+    - 70s
+    - Japanese
+    - Psychedelic Rock
+  condition:
+    vinyl: NM
+    cover: NM
+
+- artist: My Bloody Valentine
+  title: Lost Tracks And Rare Cuts
+  label: Arkain Filloux
+  label_id: none
+  genre:
+    - 90s
+    - Shoegaze
+  condition:
+    vinyl: NM
+    cover: NM
+
+- artist: The Standells
+  title: Dirty Water
+  label: Tower
+  label_id: "T 502749"
+  genre:
+   - 60s
+   - Garage Rock
+   - Psychedelic Rock
+  condition:
+    vinyl: VG+
+    cover: VG
+
+- artist: Various Artists
+  title: "Big Lizard Stomp!: Volume Two"
+  label: Bamboo
+  label_id: BMLP7015
+  genre:
+    - 60s
+    - Garage Rock
+    - Psychedelic Rock
+    - Surf
+    - Rock'n'roll
+    - Japanese"
+  condition:
+    vinyl: NM
+    cover: NM
+    extra: "Limited: 1202/1500"
+
+- artist: Various Artists
+  title: "Cazumbi - African Sixties Garage Vol-2"
+  label: Nosmoke
+  label_id: NS004LP
+  genre:
+    - 60s
+    - 70s
+    - Garage Rock
+    - Psychedelic Rock
+    - Surf
+    - Rock'n'roll
+    - African
+  condition:
+    vinyl: VG+
+    cover: VG (sticker rip on the back cover)
+    extra: "Limited to 700 copies"
+
+- artist: Various Artists
+  title: Monster A Go-Go Volume One
+  label: Bamboo
+  label_id: BAMLP7013
+  genre:
+    - 60s
+    - Garage Rock
+    - Psychedelic Rock
+    - Surf
+    - Rock'n'roll
+    - Japanese
+  condition:
+    vinyl: NM
+    cover: NM
+    extra: "Limited: 1192/1500"
+
+- artist: Various Artists
+  title: "Sixties Japanese Garage-Psych Sampler"
+  label: Bamboo
+  label_id: BAMLP7012
+  genre:
+    - 60s
+    - Garage Rock
+    - Psychedelic Rock
+    - Surf
+    - Rock'n'roll
+    - Japanese
+  condition:
+    vinyl: NM
+    cover: NM
+    extra: "Limited: 758/1000"

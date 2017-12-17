@@ -1,0 +1,73 @@
+---
+layout: default
+title: 'Shop'
+---
+
+<div class="post pg">
+  <p>
+    Currently I've been selling close to 150 orders on Discogs and thought
+    it would be nice to introduce people to the things I've been
+    selling. All these items on this page, I'm giving away for free.
+    (Read more by scrolling down).
+  </p>
+
+  <p>
+    If you however want something collectable and special, than I'm
+    probably selling it on Discogs:
+  </p>
+
+  <a target="_blank" href="https://www.discogs.com/seller/LorikeetRecords/profile" class="btn">More on Discogs!</a>
+</div>
+
+{% for item in site.data.free_music %}
+  <div class="post pg">
+    <strong>{{ item.artist }} - {{ item.title }}</strong>
+    <ul class="tags">
+      {% for tag in item.genre %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+
+<div class="post pg">
+  <p>
+    If you want any of these items, the following rules apply:
+  </p>
+
+  <ol>
+    <li>
+      All these items are free, so 0€/$/whatever.
+    </li>
+    <li>
+      The max is two per person
+    </li>
+    <li>
+      The shipment costs are the things you have to pay yourself,
+      because I do support my local postal company.
+    </li>
+    <li>Don't be a dick:
+      <ol>
+        <li>
+          If I find out that you only want these records so you can sell them yourself,
+          than you are a dick.
+        </li>
+        <li>
+          If you however - in time - find that the music is getting a bit
+          boring, give them away to somebody else for free. That would
+          make you a first class hero.
+        </li>
+      </ol>
+    </li>
+  </ol>
+
+  <p>
+    Send me an email: <a href="mailto:bird@lorikeet.nl">bird{at}lorikeet.nl</a>
+    and tell me a little bit about why you want this
+    record and where it needs to ship to. I'll send you a payment
+    request through paypal for the shipment costs. If that's paid, I'll
+    ship it and you can enjoy your free music. If you live in the direct
+    neighborhood, know who I am and where I live, than you can obviously
+    come and get it without any of the shipment costs.
+  </p>
+</div>
