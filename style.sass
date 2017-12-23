@@ -41,7 +41,7 @@ body
           border-bottom: none
 
   .center
-    width: 540px
+    width: 640px
     margin: 20px auto 0
     padding: 175px 0 30px 0
 
@@ -168,6 +168,8 @@ div.pg
 
     a
       border: none
+      text-align: center
+      display: block
 
     p
       text-align: center
@@ -191,8 +193,22 @@ div.pg
       margin-top: 5px
 
   &.post
+    img
+      display: block
+
     img.cover
       width: 100%
+
+    ol
+      padding-left: 0
+      list-style-position: inside
+
+      li
+        margin-bottom: 30px
+
+        img
+          margin-top: 5px
+          display: block
 
     p
       text-align: justify
@@ -253,13 +269,14 @@ span.or
   padding: 9px 6px 9px 11px
   margin: 10px 0
 
-@media only screen and (max-width: 575px)
+@media only screen and (max-width: 675px)
   body .center
     width: 100%
 
     margin: auto
     padding-top: 0
 
+@media only screen and (max-width: 575px)
   h1
     font-size: 120%
 

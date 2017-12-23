@@ -2,7 +2,7 @@
 layout: post
 title: The Caretaker - Everywhere At The End Of Time
 year: 2016
-cover: "https://f4.bcbits.com/img/a3529689632_10.jpg"
+cover: "/img/2016/01.jpg"
 tags:
   - review
   - dark ambient
