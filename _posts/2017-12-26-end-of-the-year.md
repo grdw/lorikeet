@@ -64,7 +64,7 @@ tags:
     that crossed my nose, eyes and ears in 2017. This means
     either released in
     2017, found in 2017 or re-released in 2017. This list is
-    really, really hard (that's why there are so many honerable
+    really, really hard (that's why there are so many honorable
     mentions). There has been so much amazing music
     that crossed my ears this year that it's really hard
     to make a good list, but here goes nothing:
@@ -93,13 +93,13 @@ tags:
   </p>
 </div>
 <div class="pg post">
-  <strong>Honerable mentions:</strong>
+  <strong>Honorable mentions:</strong>
 
 
   <p>In no perticular order:</p>
 
   <ul>
-    {% for item in site.data.lists.top_ten.Y2017_honerable %}
+    {% for item in site.data.lists.top_ten.Y2017_honorable %}
       <li>
         {{ item.artist }} - {{ item.title }} ({{ item.released }}, {{ item.label }})
       </li>
