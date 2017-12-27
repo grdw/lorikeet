@@ -30,7 +30,7 @@ tags:
     First off: this year was my Red Light Radio debut. It was a great
     one hour with the good as always, great DJ and buddy: Eindbaas. You can check
     it out on my Mixcloud <sr>https://www.mixcloud.com/lorikeet/</sr> (they misspelled my name as Lori Keet but hey,
-    that's how the cookie crumbles). Ofcourse I've fond memories of the
+    that's how the cookie crumbles). Of course I've fond memories of the
     Arribada night, Tropicalismo and Woodstock69 and hopefully
     we'll see a return next year?
   </p>
