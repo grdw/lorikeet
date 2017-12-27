@@ -129,7 +129,7 @@ tags:
     forward to Ovular's new 10" release:
     Braz Gonsalves, Pam Crain - Devapriya - a collection of jazz
     singles released in the 70s in India. Radio Martiko is doing
-    a rereleasing Hany Mehanna's, The Miracle
+    a re-release of Hany Mehanna's, The Miracle
     Of The Seven Dances, which I already pre-orderded as the
     exciting little kid I am. And hopefully 2018 will bring
     even more amazing music to the table.
