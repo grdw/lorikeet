@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: post
 title: 2017, in retrospect
 cover: '/img/2017/12/01.jpg'
-class: 'collapse'
 tags:
 - 2017
 - lists
@@ -11,8 +10,6 @@ tags:
 ---
 
 <div class='pg post'>
-  <h1>{{ page.title }}</h1>
-
   <p>
     <i>
       2017 is almost over and what a blast it was. I'm going to give

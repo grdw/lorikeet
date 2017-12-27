@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drunken Marias
 cover: '/img/2017/20170711-poster-slof-versie-4.jpg'
 tags:
