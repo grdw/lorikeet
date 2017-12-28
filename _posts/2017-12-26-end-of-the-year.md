@@ -154,7 +154,7 @@ tags:
     </i>
   </p>
 
-  <iframe width="500" height="315" src="https://www.youtube.com/embed/u3r018Mszcc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/u3r018Mszcc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div class='pg post'>
