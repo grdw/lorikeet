@@ -15,6 +15,7 @@ class: 'collapse'
   {{ content }}
 
   <div class="info">
-    Published on: {{ page.date | date: "%b %d, %Y" }} by Gerard
+    Published on: {{ page.date | date: "%b %d, %Y" }} by Gerard -
+    <a href="https://github.com/grdw/lorikeet/commits/master/{{ page.path }}" target="_blank">list of changes</a>
   </div>
 </div>
