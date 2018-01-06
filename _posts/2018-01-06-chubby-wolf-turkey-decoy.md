@@ -55,7 +55,7 @@ tags:
   additional instrumentation is obviously present, like the opening track
   'Cantankerous Baby'. On that particular track, the bells are being played,
   sounding much like an improvised take on something Lino Capra Vaccina could
-  have been made. Also the spoken word sample used in the intro of
+  have made. Also the spoken word sample used in the intro of
   'Sushi On A Hot Day' comes to mind of which I'm still not entirely sure
   what is being sampled and actually what she's saying ("I wish somebody would
   spray on me with 'talcinpotty'?"). But other times it's a little more subtle,
