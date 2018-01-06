@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Posts'
-class: 'collapse'
+class: 'collapse posts'
 ---
 
 {% for post in paginator.posts %}
@@ -25,7 +25,8 @@ class: 'collapse'
         {% endfor %}
       </ul>
 
-      <a href="{{ post.url }}">Read more</a>
+      <a class="read-more" href="{{ post.url }}">Read more</a>
+      <div class="clear"></div>
     </p>
   </div>
 {% endfor %}

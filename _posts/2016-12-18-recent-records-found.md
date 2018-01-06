@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Crate digging
 year: 2016-12-17
 cover: '/img/2016/12/13.jpg'
@@ -70,39 +70,33 @@ items:
     is made on a market place called Jamaa El-Fna in Marrakesh.
 ---
 
-<div class='pg post'>
-  <h1>{{ page.title }}</h1>
-  <p>
-    Today I'm blogging about something new which I might be doing for a long
-    time; discussing my recent findings on one of many crate digging adventures.
-    Yesterday I spend a few moments of my day in Good Times; a small yet cozy
-    record store located near my house. What I found was pretty amazing:
-  </p>
-</div>
+<p>
+  Today I'm blogging about something new which I might be doing for a long
+  time; discussing my recent findings on one of many crate digging adventures.
+  Yesterday I spend a few moments of my day in Good Times; a small yet cozy
+  record store located near my house. What I found was pretty amazing:
+</p>
 
 <div>
   {% for item in page.items %}
-    <div class='pg post'>
-      <h2>{{ item.title }}</h2>
-      <div>
-        <i>{{ item.label }}</i>
-      </div>
-      <p>
-        {% if item.listen_url %}
-          <a href="{{ item.listen_url }}" target="_blank">
-            <img class="cover" src="{{ item.cover }}"/>
-          </a>
-        {% else %}
-          <img class="cover" src="{{ item.cover }}"/>
-        {% endif %}
-      </p>
-      <p>
-        {{ item.content }}
-      </p>
+    <div class='divider'></div>
+    <h2>{{ item.title }}</h2>
+    <div>
+      <i>{{ item.label }}</i>
     </div>
+    <p>
+      {% if item.listen_url %}
+        <a href="{{ item.listen_url }}" target="_blank">
+          <img class="cover" src="{{ item.cover }}"/>
+        </a>
+      {% else %}
+        <img class="cover" src="{{ item.cover }}"/>
+      {% endif %}
+    </p>
+    <p>
+      {{ item.content }}
+    </p>
   {% endfor %}
 </div>
 
-<div class='pg post'>
-  {% include license.html %}
-</div>
+{% include license.html %}
