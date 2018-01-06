@@ -3,11 +3,10 @@
 #
 ---
 
-$gray:         #dbdbd8
-$pink: #E54374
+$gray: #dbdbd8
+$pink: #fa6c87
 
 body
-  //background-image: url('img/bg.jpg')
   background-color: $gray
   font-family: Palatino
   font-size: 1.3em
@@ -60,16 +59,29 @@ body
 
   &.posts
     .post
+      div.wrap
+        position: relative
+        margin: 20px 0
+
+      .info-bar
+        position: absolute
+        bottom: -13px
+        ul.tags, a
+          display: inline-block
+
       ul.tags
-        float: left
         margin-top: 0
+        float: right
 
       a.read-more
-        float: right
         background-color: $pink
         padding: 2px 5px
-        margin-bottom: 5px
+        margin: 0 5px 5px 10px
         line-height: 2em
+        border-bottom: none
+
+        &:hover
+          background-color: darken($pink, 5)
 
 .clear
   clear: both
@@ -144,7 +156,7 @@ div.divider
     border-right: solid $gray 1px
     font-weight: bold
     margin: 10px 0
-    background-color: $gray
+    background-color: $pink
 
   li
     list-style-type: none

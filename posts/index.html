@@ -14,20 +14,23 @@ class: 'collapse posts'
         {% endif %}
       </a>
     </h2>
-    <p>
+    <div class="wrap">
       <a href="{{ post.url }}">
         <img src="{{ post.cover }}" class="cover"/>
       </a>
 
-      <ul class="tags">
-        {% for tag in post.tags %}
-          <li>{{ tag }}</li>
-        {% endfor %}
-      </ul>
+      <div class="info-bar">
+        <a class="read-more" href="{{ post.url }}">Read more</a>
 
-      <a class="read-more" href="{{ post.url }}">Read more</a>
-      <div class="clear"></div>
-    </p>
+        <ul class="tags">
+          {% for tag in post.tags %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+
+        <div class="clear"></div>
+      </div>
+    </div>
   </div>
 {% endfor %}
 
@@ -35,13 +38,9 @@ class: 'collapse posts'
 <div class="pg pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
   {% endif %}
 </div>
