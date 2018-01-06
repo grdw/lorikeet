@@ -3,6 +3,7 @@ layout: post
 title: Chubby Wolf - Turkey Decoy
 year: 2011
 cover: "/img/2018/01/01.jpg"
+class: 'collapse'
 tags:
   - review
   - ambient
