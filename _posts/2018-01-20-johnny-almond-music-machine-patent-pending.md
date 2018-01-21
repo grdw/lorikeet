@@ -21,7 +21,7 @@ tags:
 </p>
 
 <p>
-  Patent Pending is the 1969 debut album from The Johnny Almond Music Machine.
+  'Patent Pending' is the 1969 debut album from The Johnny Almond Music Machine.
   Before this record came out into existence, Johnny Almond played saxephone,
   namely on John Mayall records <sr>https://www.discogs.com/artist/305974-Johnny-Almond?filter_anv=0&subtype=Instruments-Performance&type=Credits</sr>. Later on he played for Alan Price Set and Fleetwood Mac and
   in 1970 he founded a jazz/rock band called Mark-Almond together with Jon
