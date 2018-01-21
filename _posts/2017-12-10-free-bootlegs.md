@@ -134,5 +134,3 @@ tags:
   Gerard<br/>
   Lorikeet Records
 </p>
-
-{% include license.html %}

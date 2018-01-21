@@ -217,5 +217,3 @@ tags:
     <a href='https://www.reddit.com/r/vinyl/comments/6hdt2z/digging_in_morocco/?st=j3y6n0ri&sh=f1c716bf' target='_blank'>Leave a comment on the post entry on Reddit /r/Vinyl.</a>
   </strong>
 </p>
-
-{% include license.html %}

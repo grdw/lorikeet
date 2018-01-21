@@ -28,5 +28,3 @@ tags:
 </p>
 
 <p>Gerard</p>
-
-{% include license.html %}

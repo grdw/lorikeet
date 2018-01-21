@@ -36,5 +36,3 @@ tags:
 <p>
 All in all I really love "Snowflakes Are Dancing" by Isao Tomita. It really stands out to me that a pioneer in electronic composition is able to recreate the sounds of Claude Debussy in such a fashion that it's still recognizable and above all originally executed. There are some great pieces on this record like "Reveries", "Claire De La Lune" and "Arabesque No. 1". It also has it's minor, less interesting tracks but they don't fall out of tone with the general direction of this record. It could maybe have maybe used a little bit of hustling in the tracklisting to diversify the good with the bad, but that's just me nitpicking <strong>[7.5/10]</strong>.
 </p>
-
-{% include license.html %}

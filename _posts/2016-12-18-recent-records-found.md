@@ -98,5 +98,3 @@ items:
     </p>
   {% endfor %}
 </div>
-
-{% include license.html %}

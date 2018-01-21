@@ -95,5 +95,3 @@ tags:
   that it can become a little to boring at times and a touch to heavy on
   the soul. <strong>[6.6/10]</strong>
 </p>
-
-{% include license.html %}

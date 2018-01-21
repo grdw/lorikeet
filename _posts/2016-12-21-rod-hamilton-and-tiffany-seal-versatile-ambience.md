@@ -68,5 +68,3 @@ tags:
   who snaps his finger besides your ear and says: 'wake up'
   <strong>[5.5/10]</strong>.
 </p>
-
-{% include license.html %}

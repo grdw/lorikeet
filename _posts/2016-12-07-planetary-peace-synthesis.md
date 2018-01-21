@@ -81,5 +81,3 @@ tags:
   simultaneously being haunting. Synthesis aspires to a certain mysticism for
   the curious. <strong>[7.0/10]</strong>
 </p>
-
-{% include license.html %}

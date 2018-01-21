@@ -28,5 +28,3 @@ tags:
 </p>
 
 <p>Love! Lorikeet</p>
-
-{% include license.html %}

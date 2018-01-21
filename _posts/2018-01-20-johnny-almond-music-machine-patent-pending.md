@@ -92,5 +92,3 @@ tags:
   case - it being a solo album of one artist - I find it to be one.
   <strong>[5.9/10]</strong>
 </p>
-
-{% include license.html %}
