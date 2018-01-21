@@ -30,7 +30,7 @@ tags:
 
 <p>
   This is an instrumental fusion record - a combination of jazz,
-  rock with some room for exotic experimentation. The album consists of 8 tracks
+  rock with some room for exotic experimentation. It consists of 8 tracks
   - all written
   by Johnny Almond except for 'Before Dawn' which is written by Yusef Lateef.
   I found this record in a record store called Good Times in Alkmaar. I
@@ -38,11 +38,11 @@ tags:
   <sr>https://www.discogs.com/Johnny-Almond-Music-Machine-Patent-Pending/release/2227059</sr>. What initially triggered
   my interest in this record - which is the case with a lot of records in my
   collection - is the beautiful cover art. The cover art is made by David
-  Anstey - a cover artist who worked for Decca and it's sub-labels.
+  Anstey - a cover artist who worked for Decca and it's sub-labels <sr>https://www.discogs.com/artist/1827361-David-Anstey</sr>.
 </p>
 
 <p>
-  It all starts of with the track 'Ensingle'. A track which features a
+  It all starts off with the track 'Ensingle'. A track which features a
   typical hammond organ lead and an oddly satisfying layering of alto and
   tenor sax. After about 30 seconds into this track it switches over to
   a very nice flute piece and dartles between these two
@@ -51,13 +51,13 @@ tags:
   enjoy the individual saxephone pieces that follow that much. The second track -
   'Before Dawn' - has that
   same issue. The mixing revolves around the saxephone which makes all the
-  other instrumentation less prominent. Luckily, the track that follows is
+  other instrumentation less prominent. Luckily, the track that comes after is
   much densely layered, which is mainly due to the absence of the alto sax.
   Also, 'Voodoo Forest' has a really experimental and minimalistic use
   of drums and rhythm, sounding almost similar to a field recording from
   African regions. Then follows 'Solar Level' which almost completely obliterates
   that idea with a very typical funk track. In comparison to the previous
-  track I find this to sounding a little bland. I've yet to decide if this is a
+  track I find this to sound a little bland. I've yet to decide if this has been a
   bold move or something which just wasn't that smartly picked in the order of
   the tracklisting.
 </p>
@@ -78,12 +78,12 @@ tags:
 <p>
   All in all 'Patent Pending' is a decent record.
   I like the tracks 'Ensingle' and 'Pequeno Nova' individually. Which is
-  also exactly the right word to adescribe the biggest downside of this album:
+  also exactly the right word to describe the biggest downside of this album:
   as a whole this record jumps from one track to the next, with almost no
   consistency whatsoever. This is also the reason I felt that I had to review
   this album song by song. This doesn't mean that there aren't tracks which
   sound similar, just that there's no coherence between one track to the next.
-  There are songs that sound similar, but they are really far off
+  There are songs that sound similar, like 'Solar Level' and 'Tales Of Junior' but they are really far off
   from each other in the tracklisting. I like that he tried to experiment and
   play with different musical styles and instrumentation but because he's
   doing it so much and in so many directions, it sounds
@@ -92,3 +92,5 @@ tags:
   case - it being a solo album of one artist - I find it to be one.
   <strong>[5.9/10]</strong>
 </p>
+
+{% include license.html %}
