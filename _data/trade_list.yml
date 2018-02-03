@@ -11,19 +11,32 @@
     vinyl: VG+,
     cover: NM
 
-#- id: 2
-#  hidden: true
-#  artist: The Growing Concern
-#  title: The Growing Concern
-#  label: Phoenix Records
-#  label_id: ASHLP3020
-#  genre:
-#    - 60s
-#    - Pop Rock
-#    - Psychedelic Rock
-#  condition:
-#    vinyl: NM
-#    cover: NM
+- id: 2
+  hidden: true
+  artist: The Growing Concern
+  title: The Growing Concern
+  label: Phoenix Records
+  label_id: ASHLP3020
+  genre:
+    - 60s
+    - Pop Rock
+    - Psychedelic Rock
+  condition:
+    vinyl: NM
+    cover: NM
+
+- id: 11
+  artist: Locomotive
+  title: "We Are Everything You See"
+  label: Radioactive
+  label_id: "RRLP 042"
+  genre:
+    - 70s
+    - Psychedelic Rock
+    - Progressive Rock
+  condition:
+    vinyl: NM
+    cover: NM
 
 - id: 3
   artist: The Loot
