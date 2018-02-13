@@ -65,18 +65,6 @@
     vinyl: NM
     cover: NM
 
-- id: 5
-  artist: My Bloody Valentine
-  title: Lost Tracks And Rare Cuts
-  label: Arkain Filloux
-  label_id: none
-  genre:
-    - 90s
-    - Shoegaze
-  condition:
-    vinyl: NM
-    cover: NM
-
 - id: 6
   artist: The Standells
   title: Dirty Water
