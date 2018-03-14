@@ -1,3 +1,33 @@
+- id: 2
+  artist: Broery with His GoGo Friends
+  title: Broery with His GoGo Friends
+  label: Remaco
+  label_id: RLL 101
+  genre:
+    - 70s
+    - Folk
+    - Psychedelic Rock
+    - Soul
+  condition:
+    vinyl: VG/VG+,
+    cover: VG
+  sample: 394299117
+
+- id: 3
+  artist: Ivo Nilakreshna
+  title: Gado Gado
+  label: PopSound
+  label_id: '6418 028, ST 33'
+  genre:
+    - 70s
+    - Vocal
+    - Keroncong
+    - Folk
+  condition:
+    vinyl: VG+,
+    cover: VG
+  sample: 394310181
+
 - id: 1
   artist: Blonde On Blonde
   title: Rebirth
@@ -10,3 +40,4 @@
   condition:
     vinyl: VG+,
     cover: NM
+
