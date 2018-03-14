@@ -28,6 +28,49 @@
     cover: VG
   sample: 394310181
 
+- id: 4
+  artist: Kalyanji Anandji
+  title: Desh Drohi
+  label: "His Master's Voice"
+  label_id: '45 NLP 1036'
+  genre:
+    - Bollywood
+    - Psychedelic
+    - Funk
+    - Hindustani
+  condition:
+    vinyl: VG+,
+    cover: G+
+  sample: 413614875
+
+- id: 5
+  artist: Ilaiyaraaja
+  title: Kaavalukku Kettikkaaran
+  label: Echo Records
+  label_id: '8000 747'
+  genre:
+    - 80s
+    - Synth-pop
+    - Tamil
+  condition:
+    vinyl: VG,
+    cover: G
+  sample: 413616177
+
+- id: 6
+  artist: Raj-Koti
+  title: Trinethrudu
+  label: Leo Audio - Video (P) Ltd.
+  label_id: 'LR 200 LP'
+  genre:
+    - 80s
+    - Synth-pop
+    - Telugu
+  condition:
+    vinyl: VG,
+    cover: G
+  sample: 413619585
+
 - id: 1
   artist: Blonde On Blonde
   title: Rebirth
