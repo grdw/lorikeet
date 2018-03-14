@@ -9,7 +9,7 @@
     - Psychedelic Rock
     - Soul
   condition:
-    vinyl: VG/VG+,
+    vinyl: VG/VG+
     cover: VG
   sample: 394299117
 
@@ -24,7 +24,7 @@
     - Keroncong
     - Folk
   condition:
-    vinyl: VG+,
+    vinyl: VG+
     cover: VG
   sample: 394310181
 
@@ -39,7 +39,7 @@
     - Funk
     - Hindustani
   condition:
-    vinyl: VG+,
+    vinyl: VG+
     cover: G+
   sample: 413614875
 
@@ -53,7 +53,7 @@
     - Synth-pop
     - Tamil
   condition:
-    vinyl: VG,
+    vinyl: VG
     cover: G
   sample: 413616177
 
@@ -67,7 +67,7 @@
     - Synth-pop
     - Telugu
   condition:
-    vinyl: VG,
+    vinyl: VG
     cover: G
   sample: 413619585
 
@@ -81,6 +81,6 @@
     - Prog Rock
     - Psychedelic Rock
   condition:
-    vinyl: VG+,
+    vinyl: VG+
     cover: NM
 
