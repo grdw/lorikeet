@@ -57,20 +57,6 @@
     cover: G
   sample: 413616177
 
-- id: 6
-  artist: Raj-Koti
-  title: Trinethrudu
-  label: Leo Audio - Video (P) Ltd.
-  label_id: 'LR 200 LP'
-  genre:
-    - 80s
-    - Synth-pop
-    - Telugu
-  condition:
-    vinyl: VG
-    cover: G
-  sample: 413619585
-
 - id: 1
   artist: Blonde On Blonde
   title: Rebirth
