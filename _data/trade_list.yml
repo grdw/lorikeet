@@ -1,18 +1,3 @@
-- id: 2
-  artist: Broery with His GoGo Friends
-  title: Broery with His GoGo Friends
-  label: Remaco
-  label_id: RLL 101
-  genre:
-    - 70s
-    - Folk
-    - Psychedelic Rock
-    - Soul
-  condition:
-    vinyl: VG/VG+
-    cover: VG
-  sample: 394299117
-
 - id: 3
   artist: Ivo Nilakreshna
   title: Gado Gado
@@ -39,23 +24,9 @@
     - Funk
     - Hindustani
   condition:
-    vinyl: VG+
+    vinyl: VG
     cover: G+
   sample: 413614875
-
-- id: 5
-  artist: Ilaiyaraaja
-  title: Kaavalukku Kettikkaaran
-  label: Echo Records
-  label_id: '8000 747'
-  genre:
-    - 80s
-    - Synth-pop
-    - Tamil
-  condition:
-    vinyl: VG
-    cover: G
-  sample: 413616177
 
 - id: 1
   artist: Blonde On Blonde
