@@ -24,3 +24,4 @@ en exotische sferen in een funky/jazzy jasje. Platen zoals je ze nog niet
 eerder hebt gehoord. Waag je aan de dansvloer of luister mee en ontdek je
 innerlijke palmboom. Pas op: de muziek kan lichte koorts veroorzaken en heimwee
 naar warme landen.
+
