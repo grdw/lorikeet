@@ -1,6 +1,6 @@
 live: false
 live_url: 'http://82.161.93.185:5678/lorikeet.ogg'
-mixcloud_url: 'https://www.mixcloud.com/lorikeet/vintage-obscura-1/'
+mixcloud_url: 'https://www.mixcloud.com/lorikeet/paistani-treasure-chest/'
 paginate: 3
 paginate_path: '/posts/page:num/'
 future: true
