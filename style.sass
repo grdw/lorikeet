@@ -179,23 +179,6 @@ div.pg
   border-bottom: 5px $gray dotted
   background-color: #f3f3f3
 
-  &.trade-item
-    strong, em
-      display: block
-
-    .covers
-      margin-bottom: 10px
-
-      &:hover
-        img.back
-          display: block
-
-        img.cover
-          display: none
-
-      img.back
-        display: none
-
   &.shop
     padding-bottom: 30px
 
@@ -394,7 +377,37 @@ body.trade-store
     clear: both
     div.left, div.right
       float: left
+      min-height: 100%
     div.left
+      background-color: #fff
       width: 300px
     div.right
       flex-grow: 1
+
+      footer
+        margin-top: 0
+        margin-bottom: 0
+
+      div.pg
+        .trade-item
+          width: 33.33%
+          float: left
+
+          strong, em
+            display: block
+
+          .covers
+            margin-bottom: 10px
+
+            &:hover
+              img.back
+                display: block
+
+              img.cover
+                display: none
+
+            img
+              width: 100%
+
+            img.back
+              display: none

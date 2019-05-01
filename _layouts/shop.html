@@ -23,6 +23,19 @@
             <img src="/img/logo.png"/>
           </a>
         </div>
+        <div class="vertical-menu">
+          <ul>
+            <li><a href='/trade/about'>How to trade</a></li>
+
+            {% for category in site.data.trade_list.categories %}
+              <li>
+                <a href="/trade/categories/{{category[0]}}">
+                  {{ category[1] }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
 
       <div class='right'>
