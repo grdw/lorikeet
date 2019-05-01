@@ -25,36 +25,38 @@
         </div>
         <div class="vertical-menu">
           <ul>
-            <li><a href='/trade/about'>How to trade</a></li>
+            <li><a href='/trade'>Highlights</a></li>
 
-            {% for category in site.data.trade_list.categories %}
+            {% for category in site.categories %}
               <li>
-                <a href="/trade/categories/{{category[0]}}">
-                  {{ category[1] }}
+                <a href="{{category.url}}">
+                  {{ category.name }}
                 </a>
               </li>
             {% endfor %}
+
+            <li><a href='/trade/about'>How to trade</a></li>
           </ul>
         </div>
       </div>
 
       <div class='right'>
         {{ content }}
-        <footer>
-          <div class="pages">
-            <div class="menu">
-              <ul>
-                <li><a href='/'>home</a></li>
-                <li><a href="/posts">posts</a></li>
-                <li><a href="/trade">trade</a></li>
-                <li><a href="/about">about</a></li>
-              </ul>
-            </div>
-          </div>
-          ©2019 - Lorikeet
-        </footer>
       </div>
 
     </div>
+    <footer>
+      <div class="pages">
+        <div class="menu">
+          <ul>
+            <li><a href='/'>home</a></li>
+            <li><a href="/posts">posts</a></li>
+            <li><a href="/trade">trade</a></li>
+            <li><a href="/about">about</a></li>
+          </ul>
+        </div>
+      </div>
+      ©2019 - Lorikeet
+    </footer>
   </body>
 </html>

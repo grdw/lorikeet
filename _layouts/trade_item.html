@@ -1,0 +1,41 @@
+---
+layout: shop
+---
+
+<div class="trade-item-wrapper">
+  <h1>
+    {{ page.artist }} - {{ page.title }}
+  </h1>
+
+  <div class="covers">
+    <img class="cover" src="/img{{ page.id }}/cover.jpg"/>
+    <img class="back" src="/img{{ page.id }}/back.jpg"/>
+  </div>
+
+  {% if page.sample %}
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.sample }}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  {% endif %}
+
+  <div class="info">
+    <em>
+      Quality: record: {{ page.condition.vinyl }} /
+      cover: {{ page.condition.cover }}
+      {% if page.condition.extra %}
+        / {{ page.condition.extra }}
+      {% endif %}
+    </em>
+    <em>
+      <a href="https://discogs.com/{{ page.discogs }}" target="_blank">
+        Label: {{ page.label }} ({{ page.label_id }})
+      </a>
+    </em>
+  </div>
+
+  {{ page.content }}
+
+  <ul class="tags">
+    {% for tag in page.genre %}
+      <li>{{ tag }}</li>
+    {% endfor %}
+  </ul>
+</div>
