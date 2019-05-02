@@ -1,43 +1,14 @@
-- id: 3
-  artist: Ivo Nilakreshna
-  title: Gado Gado
-  label: PopSound
-  label_id: '6418 028, ST 33'
-  genre:
-    - 70s
-    - Vocal
-    - Keroncong
-    - Folk
-  condition:
-    vinyl: VG+
-    cover: VG
-  sample: 394310181
-
-- id: 4
-  artist: Kalyanji Anandji
-  title: Desh Drohi
-  label: "His Master's Voice"
-  label_id: '45 NLP 1036'
-  genre:
-    - Bollywood
-    - Psychedelic
-    - Funk
-    - Hindustani
-  condition:
-    vinyl: VG
-    cover: G+
-  sample: 413614875
-
-- id: 1
-  artist: Blonde On Blonde
-  title: Rebirth
-  label: Ember Records
-  label_id: NR 5049
-  genre:
-    - 70s
-    - Prog Rock
-    - Psychedelic Rock
-  condition:
-    vinyl: VG+
-    cover: NM
+items:
+  - id: 1
+    artist: Blonde On Blonde
+    title: Rebirth
+    label: Ember Records
+    label_id: NR 5049
+    genre:
+      - 70s
+      - Prog Rock
+      - Psychedelic Rock
+    condition:
+      vinyl: VG+
+      cover: NM
 

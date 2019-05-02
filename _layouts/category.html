@@ -1,15 +1,15 @@
 ---
 layout: shop
-title: 'Trade'
 ---
 
 <div class="trade-items-wrapper">
   {% for item in site.trade_items %}
-    {% if item.highlight %}
+    {% if item.category == page.title %}
       <div class="trade-item">
         <div class="covers">
           <a href="{{ item.url }}">
             <img class="cover" src="/img{{ item.id }}/cover.jpg"/>
+            <img class="back" src="/img{{ item.id }}/back.jpg"/>
           </a>
         </div>
       </div>

@@ -5,6 +5,7 @@
 
 $gray: #e7c28e
 $pink: #fa6c87
+$background: #f3f3f3
 
 body
   background: url('img/bg.jpg') repeat $gray
@@ -177,24 +178,7 @@ div.pg
   position: relative
   padding: 15px 20px
   border-bottom: 5px $gray dotted
-  background-color: #f3f3f3
-
-  &.trade-item
-    strong, em
-      display: block
-
-    .covers
-      margin-bottom: 10px
-
-      &:hover
-        img.back
-          display: block
-
-        img.cover
-          display: none
-
-      img.back
-        display: none
+  background-color: $background
 
   &.shop
     padding-bottom: 30px
@@ -275,14 +259,14 @@ div.pg
     div.intro
       font-style: italic
 
-    ul.tags
-      padding-left: 0
+ul.tags
+  padding-left: 0
 
-      li
-        display: inline-block
-        background-color: $gray
-        padding: 2px 5px
-        margin-bottom: 5px
+  li
+    display: inline-block
+    background-color: $gray
+    padding: 2px 5px
+    margin-bottom: 5px
 
 a.btn
   background-color: $gray
@@ -386,3 +370,87 @@ span.or
 span.extra
   color: #888
   font-size: 80%
+
+// Trade store SASS
+body.trade-store
+  footer
+    margin-top: 0
+    margin-bottom: 0
+
+    div.pages
+      padding-bottom: 5px
+
+  .birds
+    display: flex
+    clear: both
+    div.left, div.right
+      float: left
+      min-height: 100%
+    div.left
+      background-color: $background
+      padding: 0 10px
+
+      .vertical-menu
+        ul
+          padding-left: 0
+        li
+          list-style-type: none
+
+      div.pg.logo
+        width: 100%
+        margin-top: 15px
+        text-align: center
+
+    div.right
+      background-color: $background
+      flex-grow: 1
+
+      div.about
+        padding-right: 50px
+        text-align: justify
+
+      div.trade-item-wrapper
+        .covers
+          img
+            width: 50%
+            float: left
+        .info
+          margin-top: 20px
+
+        div.content
+          padding-top: 20px
+
+      div.trade-items-wrapper
+        margin-top: 15px
+        .trade-item
+          width: 33.33%
+          float: left
+
+          strong, em
+            display: block
+
+          .covers
+            margin-bottom: 10px
+
+            a
+              display: block
+              height: 100%
+
+            img
+              width: 100%
+
+            img.back
+              display: none
+
+@media only screen and (max-width: 575px)
+  body.trade-store
+    div.left
+      display: none
+
+    .birds
+      div.right div.about
+        padding-left: 10px
+        padding-right: 10px
+      .trade-item-wrapper
+        h1, .info, ul.tags, div.content
+          padding-left: 5px
