@@ -4,6 +4,7 @@ artist: Blonde On Blonde
 title: Rebirth
 label: Ember Records
 label_id: NR 5049
+released: 2013
 genre:
   - 70s
   - Prog Rock
@@ -12,7 +13,7 @@ condition:
   vinyl: VG+
   cover: NM
 category: Rock
-highlight: true
+highlight: false
 discogs: Blonde-On-Blonde-Rebirth/release/4489997
 ---
 

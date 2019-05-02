@@ -5,12 +5,16 @@ layout: shop
 <div class="trade-item-wrapper">
   <h1>
     {{ page.artist }} - {{ page.title }}
+    {% if page.released %}
+      ({{ page.released }})
+    {% endif %}
   </h1>
 
   <div class="covers">
     <img class="cover" src="/img{{ page.id }}/cover.jpg"/>
     <img class="back" src="/img{{ page.id }}/back.jpg"/>
   </div>
+  <div class="clear"></div>
 
   {% if page.sample %}
     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.sample }}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -31,7 +35,11 @@ layout: shop
     </em>
   </div>
 
-  {{ page.content }}
+  <div class='content'>
+    {{ page.content }}
+
+    Interested in this item? Check <a href="/trade/about">how to trade</a>.
+  </div>
 
   <ul class="tags">
     {% for tag in page.genre %}

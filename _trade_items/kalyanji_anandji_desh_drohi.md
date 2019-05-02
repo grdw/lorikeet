@@ -4,6 +4,7 @@ artist: Kalyanji Anandji
 title: Desh Drohi
 label: "His Master's Voice"
 label_id: '45 NLP 1036'
+released: 1978
 genre:
 - Bollywood
 - Psychedelic

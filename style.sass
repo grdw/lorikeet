@@ -390,6 +390,12 @@ body.trade-store
       background-color: $background
       padding: 0 10px
 
+      .vertical-menu
+        ul
+          padding-left: 0
+        li
+          list-style-type: none
+
       div.pg.logo
         width: 100%
         margin-top: 15px
@@ -405,10 +411,14 @@ body.trade-store
 
       div.trade-item-wrapper
         .covers
-          padding-bottom: 12px
           img
             width: 50%
             float: left
+        .info
+          margin-top: 20px
+
+        div.content
+          padding-top: 20px
 
       div.trade-items-wrapper
         margin-top: 15px
@@ -422,15 +432,25 @@ body.trade-store
           .covers
             margin-bottom: 10px
 
-            &:hover
-              img.back
-                display: block
-
-              img.cover
-                display: none
+            a
+              display: block
+              height: 100%
 
             img
               width: 100%
 
             img.back
               display: none
+
+@media only screen and (max-width: 575px)
+  body.trade-store
+    div.left
+      display: none
+
+    .birds
+      div.right div.about
+        padding-left: 10px
+        padding-right: 10px
+      .trade-item-wrapper
+        h1, .info, ul.tags, div.content
+          padding-left: 5px

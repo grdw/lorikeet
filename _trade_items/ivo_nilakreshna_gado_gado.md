@@ -4,6 +4,7 @@ artist: Ivo Nilakreshna
 title: Gado Gado
 label: PopSound
 label_id: '6418 028, ST 33'
+released: 1970
 genre:
   - 70s
   - Vocal
@@ -14,7 +15,7 @@ condition:
   cover: VG
 sample: 394310181
 category: Other
-highlight: true
+highlight: false
 discogs: Ivo-Nilakreshna-Gado-Gado/release/11517405
 ---
 
