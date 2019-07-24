@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% if site.live %}
+{% if site.live.on_air %}
 	<div class="pg live">
-		<div id="mpd" data-src="{{ site.live_url }}"></div>
+		<div id="mpd" data-src="{{ site.live.url }}"></div>
 	</div>
 {% else %}
 	<div class='pg mixcloud'>
