@@ -1,5 +1,5 @@
 live:
-  on_air: false
+  on_air: true
   url: 'http://82.161.93.185:5678/lorikeet.ogg'
 mixcloud_url: 'https://www.mixcloud.com/lorikeet/lorikeet-radio-episode-i-20190630/'
 paginate: 3
