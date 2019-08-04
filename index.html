@@ -7,9 +7,11 @@ layout: default
 		<div id="mpd" data-src="{{ site.live.url }}"></div>
 	</div>
 {% else %}
-	<div class='pg mixcloud'>
-		<iframe frameborder='0' height='181' src='https://www.mixcloud.com/widget/iframe/?feed={{ site.mixcloud_url }}' width='100%'></iframe>
-	</div>
+  <div class="front mix">
+    <audio controls>
+      <source src="{{ site.data.radio_shows.front.link }}" type="audio/ogg">
+    </audio>
+  </div>
 {% endif %}
 
 

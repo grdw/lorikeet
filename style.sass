@@ -14,6 +14,13 @@ body
   color: black
   margin: 0
 
+  .front.mix
+    background: url('img/radio/front.jpg') no-repeat 0 86%
+    height: 200px
+
+    audio
+      width: 100%
+
   .menu
     background-color: $gray
     text-align: center
@@ -66,7 +73,7 @@ body
 
       .info-bar
         position: absolute
-        bottom: -13px
+        bottom: 0
         ul.tags, a
           display: inline-block
 
@@ -259,12 +266,12 @@ div.pg
 
 ul.tags
   padding-left: 0
+  margin-bottom: 0
 
   li
     display: inline-block
     background-color: $gray
     padding: 2px 5px
-    margin-bottom: 5px
 
 a.btn
   background-color: $gray
