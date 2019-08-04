@@ -70,7 +70,7 @@ tags:
 <div class="divider"></div>
 
 <p>
-  <ol>
+  <ol class='end_of_year_list'>
     {% for item in site.data.lists.top_ten.Y2017 %}
       <li>
         {{ item.artist }} - {{ item.title }} ({{ item.released }}, {{ item.label }})
