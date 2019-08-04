@@ -13,7 +13,10 @@ However proposed changes to Mixcloud <sr>https://www.cultr.com/news/mixcloud-imp
 
 From now on, Lorikeet Radio shows will be available through archive.org. From there I create a link and will use very basic html `<audio>`-tags to make it playable on lorikeet.nl. The reason I did it this way, is that I will not start paying money for a service I once used for free. Also, if it's 20 minutes of fiddling with code to cancel out an entire third-party service from your website, than do it. Do you know how many bullshit trackers it saves me by not having to include that insane iframe of Mixcloud? A lot. So naturally I see this as a win-win.
 
-The 2nd episode is now available from the front-page. The other episode I'll add to lorikeet.nl in a nice way in a few moments.
+The 2nd episode is now available from the front-page. The other episodes are here:
+
+- [Lorikeet Radio - Episode I - 2019/06/30](/2019/06/30/lorikeet-radio-episode-i.html)
+- [Lorikeet Radio - Episode II - 2019/07/27](/2019/07/27/lorikeet-radio-episode-ii.html)
 
 If you want to migrate away from Mixcloud, please contact me and I'll give you some more detail.
 
