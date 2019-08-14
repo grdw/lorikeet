@@ -1,0 +1,19 @@
+---
+layout: post
+title: Quitting Instagram
+cover: "/img/new_logo.jpg"
+class: 'collapse'
+---
+
+Instagram; it's a platform I had an account on for a while and decided to delete after a year of using it. Then this year, in April, I created another account with the same name and this week I quitted again. I know why I don't like it, because there's something extremely off-putting about it and I'll explain why.
+
+The main issue I have with Instagram is the mental state it puts me in. Every time after I close Instagram I feel really unhappy about myself as a music nerd and as a person. This is not a thing I want to do to myself as I'm not that masochistic (I do like to watch Michael Bay's Transformers from time to time, so maybe this isn't entirely true). All I crave when being on that platform is likes, comments and attention. You start to act the same insane way as a cocaine addict. I spend a lot of time on finding records, sampling these records, cutting them and process them; it's a lot of work. If I open the app and get 2 likes on a sample of a record I spent ages on pulling from the dirt, I feel like it was all for nothing. Of course this is not how it really is, but it gives off that feeling. Every time I share something and it doesn't start peaking with 100+ likes I feel like it was a mistake. I always begin to second guess myself: "Did I do something wrong?", "How come people like this other guy's post so much, but my post only has 5 likes?" It's really not healthy for me at all and it feels like a total waste of time. Also the amount of times per day I just blindly open that app and start checking if I got any likes was jarring. It puts me in a bad place to say the least. I just want to share some music and not get judged for it based on some arbitrary platform with it's arbitrary statistical horse-shit and algorithms, but I felt like I was.
+
+Another thing I personally am always fed up with is privacy. Privacy means: "the quality or condition of being secluded from the presence or view of others". Others meaning: anybody else - including the eyes of Instagram itself. Everything you post on Instagram belongs to Instagram. If I were to publish this text on Instagram, it's Instagram's text all of a sudden and they can use it in any way they see, as that's what you agreed upon when creating the account. The same with images and videos; the moment you post it on that platform it's theirs. Obviously this same issue is also present on Youtube, which I also have an account on; but I guess that's a whole different story as I do still (kind of) like Youtube (even though it's also evil).
+
+All in all I'd like to end with one of your grandpa's favourites: I genuinely miss the old internet days where Holywarbles was the music god of the internet and Flashstrap the 2nd best. The days when people just sincerely only cared about the music and the DIY home made art that accompanied it. The days where you could find anything amazing on some guys blogspot page or home page and not having to flash it on your social media account for a like and a click. The days where not everything was mined, processed and used to push likes and loves and comments. The days where things were simple and easy and Discogs record value and like counts didn't influence your music taste or personal well being; it was about the songs and only the songs and how you felt about those songs. These things are starting to get lost and all this causes people to confine themselves and limit themselves while they should be pushing the limits and go over the edge and far away. Instagram is not the platform to do something like that. Hopefully this website, this post and Lorikeet Radio will become examples of that and I'll try to do everything in my power to keep some of that old internet music nerd essence.
+
+Cheers,
+
+
+Lorikeet <3
