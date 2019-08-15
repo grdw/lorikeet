@@ -9,7 +9,8 @@ layout: default
 {% else %}
   <div class="front mix">
     <audio controls>
-      <source src="{{ site.data.radio_shows.front.link }}" type="audio/ogg">
+      <source src="{{ site.data.radio_shows.front.link }}.ogg" type="audio/ogg">
+      <source src="{{ site.data.radio_shows.front.link }}.mp3" type="audio/mp3">
     </audio>
   </div>
 {% endif %}

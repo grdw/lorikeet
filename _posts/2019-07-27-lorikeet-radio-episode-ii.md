@@ -8,7 +8,8 @@ class: 'collapse'
 <img class='cover' src="{{ page.cover }}"/>
 
 <audio controls>
-  <source src="{{ site.data.radio_shows.shows[1].link }}" type="audio/ogg">
+  <source src="{{ site.data.radio_shows.shows[1].link }}.ogg" type="audio/ogg">
+  <source src="{{ site.data.radio_shows.shows[1].link }}.mp3" type="audio/mp3">
 </audio>
 
 Recording of Lorikeet Radio show on 2019/07/27 - 19:00 - 20:00 CEST

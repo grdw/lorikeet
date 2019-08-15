@@ -1,7 +1,7 @@
 front: &front
   name: "Lorikeet Radio - Episode II - 2019/07/27"
-  link: "https://archive.org/download/20190727lorikeetradioepisodeii/20190727-lorikeet-radio-episode-II.ogg"
+  link: "https://archive.org/download/20190727lorikeetradioepisodeii/20190727-lorikeet-radio-episode-II"
 shows:
   - name: "Lorikeet Radio - Episode I - 2019/06/30"
-    link: "https://archive.org/download/20190630lorikeetradioepisodei/20190630-lorikeet-radio-episode-I.ogg"
+    link: "https://archive.org/download/20190630lorikeetradioepisodei/20190630-lorikeet-radio-episode-I"
   - *front
