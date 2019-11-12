@@ -3,12 +3,11 @@
 #
 ---
 
-$gray: #e7c28e
-$pink: #fa6c87
+$white: #ffffff
+$black: #000000
 $background: #f3f3f3
 
 body
-  background: url('img/bg.jpg') repeat $gray
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
   font-size: 1.3em
   color: black
@@ -22,8 +21,9 @@ body
       width: 100%
 
   .menu
-    background-color: $gray
+    background-color: $background
     text-align: center
+    border-top: dashed $black 2px
     ul
       padding-left: 0
       margin: 0
@@ -38,7 +38,10 @@ body
           background-color: #999
 
         &:hover
-          background-color: $pink
+          background-color: $black
+
+          a
+            color: $white
 
         a
           padding: 15px 20px
@@ -50,7 +53,6 @@ body
     padding: 5px 0 30px 0
 
     .pages
-      box-shadow: 0px 2px 5px 1px #444
 
     p.intro
       text-align: justify
@@ -82,14 +84,15 @@ body
         float: right
 
       a.read-more
-        background-color: $pink
+        background-color: $background
         padding: 2px 5px
         margin: 0 5px 5px 10px
         line-height: 2em
         border-bottom: none
 
         &:hover
-          background-color: darken($pink, 5)
+          background-color: darken($background, 5)
+
 
 .clear
   clear: both
@@ -116,7 +119,6 @@ h1
   font-size: 200%
 
 h2
-  border-bottom: 4px solid $gray
   display: inline-block
   margin-bottom: 0px
 
@@ -131,13 +133,13 @@ p, ul, ol
 
 div.divider
   display: block
-  border-bottom: 5px $gray dotted
+  border-bottom: 2px $black dashed
 
 .gigs
   ul
     padding-left: 0
   strong
-    border-bottom: 1px solid $gray
+    border-bottom: 1px solid $white
     margin-bottom: 5px
     display: inline-block
 
@@ -160,11 +162,10 @@ div.divider
           opacity: 0.5
 
   ul > li span.date
-    padding: 2px 5px
-    border-right: solid $gray 1px
+    color: $black
+    border-right: solid $white 1px
     font-weight: bold
     margin: 10px 0
-    background-color: $pink
 
   li
     list-style-type: none
@@ -175,7 +176,7 @@ em.note
 
 a
   text-decoration: none
-  border-bottom: 2px dotted $pink
+  border-bottom: 2px dashed $black
   font-weight: bold
   color: black
   &:visited, &:active
@@ -184,7 +185,7 @@ a
 div.pg
   position: relative
   padding: 15px 20px
-  border-bottom: 5px $gray dotted
+  border-bottom: 2px $black dashed
   background-color: $background
 
   &.shop
@@ -201,7 +202,7 @@ div.pg
     background-color: transparent
     border-bottom: none
     padding: 0
-    height: 270px
+    height: 280px
     margin-bottom: 20px
     overflow: hidden
 
@@ -274,11 +275,11 @@ ul.tags
 
   li
     display: inline-block
-    background-color: $gray
+    background-color: $white
     padding: 2px 5px
 
 a.btn
-  background-color: $gray
+  background-color: $white
   border-bottom: none
   padding: 9px 18px
   font-size: 120%
@@ -286,10 +287,10 @@ a.btn
 
   &.big
     display: inline-block
-    box-shadow: 2px 2px 2px 1px $pink
+    box-shadow: 2px 2px 2px 1px $black
 
   &.big:hover
-    background-color: $pink
+    background-color: $black
 
 footer
   margin: 25px 0 15px 0
