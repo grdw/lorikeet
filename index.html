@@ -7,12 +7,14 @@ layout: default
 		<div id="mpd" data-src="{{ site.live.url }}"></div>
 	</div>
 {% else %}
-  <div class="front mix">
-    <audio controls>
-      <source src="{{ site.data.radio_shows.front.link }}.ogg" type="audio/ogg">
-      <source src="{{ site.data.radio_shows.front.link }}.mp3" type="audio/mp3">
-    </audio>
-  </div>
+  <a href="/{{ site.data.radio_shows.front.blog }}">
+    <div class="front mix">
+      <audio controls>
+        <source src="{{ site.data.radio_shows.front.link }}.ogg" type="audio/ogg">
+        <source src="{{ site.data.radio_shows.front.link }}.mp3" type="audio/mp3">
+      </audio>
+    </div>
+  </a>
 {% endif %}
 
 
