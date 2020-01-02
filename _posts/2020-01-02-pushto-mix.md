@@ -17,7 +17,7 @@ In my recent musical digging adventures through the land of Pakistan, the neighb
 **The tracklist:**
 
 1. Navitha Khan - Har Wakhata Mahfalona (1978, composer: Nashad, movie: Riwaj)
-2. Naveeta Begum - Larree Char Tazama (1979, composer: S. Sunny, movie: Tandar)
+2. Naveeta Begum - Yoakhule Gul Khulyah (1979, composer: S. Sunny, movie: Tandar)
 3. Gulnar Begum - Da Khayest Peh De Bazar (1975, composer: Rafiq Shinwari, movie: Khapla Vina Khapla Khawray)
 4. Khayal Mohammad, Kishwar Sultana - Gile Ra Nez De Shah (1979, composer: Fateh Mohammad Nazar, movie: Chimnai Khan)
 5. Gulnar Begum & Others - Na Larram Parwa De (1979, composer: S. Sunny, movie: Akhri Nikha)
