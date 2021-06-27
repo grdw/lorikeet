@@ -1,53 +1,15 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, user-scalable=no' name='viewport'>
+    <title>Lorikeet</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <a target="_blank" href="https://www.discogs.com/seller/LorikeetRecords/profile">
+      <img src="image.jpg"/>
+    </a>
+  </body>
+</html>
 
-{% if site.live.on_air %}
-	<div class="pg live">
-		<div id="mpd" data-src="{{ site.live.url }}"></div>
-	</div>
-{% elsif site.data.radio_shows.front %}
-  <a href="/{{ site.data.radio_shows.front.blog }}">
-    <div class="front mix">
-      <audio controls>
-        <source src="{{ site.data.radio_shows.front.link }}.ogg" type="audio/ogg">
-        <source src="{{ site.data.radio_shows.front.link }}.mp3" type="audio/mp3">
-      </audio>
-    </div>
-  </a>
-{% else %}
-  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/780869386&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-{% endif %}
-
-
-<div class='pg gigs'>
-	<h2>Gigs</h2>
-
-  <ul>
-    {% for event_hash in site.data.events %}
-      {% capture year %}
-        {{ event_hash[0] }}
-      {% endcapture %}
-
-      <li>
-        <strong> {{ event_hash[0] }}</strong>
-        <ul class="{% if forloop.index == 1 %}open{% endif %}">
-          {% for event in event_hash[1] %}
-            {% capture nowunix %}
-              {{'now' | date: '%s'}}
-            {% endcapture %}
-
-            {% capture posttime %}
-              {{ event['date'] | date: '%s'}}
-            {% endcapture%}
-
-            <li class="{% if posttime < nowunix %}old{% endif %}" title="{% if event['as'] %}as {{ event['as'] }}{% endif %}">
-              <span class="date">{{ event['date'] | date: '%d/%m' }}</span>
-              <span class="event-name">{{ event['event'] }}</span>
-						</li>
-          {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-  </ul>
-</div>

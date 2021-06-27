@@ -1,0 +1,12 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.3em;
+  color: black;
+  background-color: #c4bf88;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 638px;
+}
